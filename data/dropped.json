@@ -14,13 +14,13 @@
  {
   "title": "2004scape",
   "url": "https://2004scape.org",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "2009scape",
   "url": "https://2009scape.org",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -458,8 +458,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 0,
-  "reason": "dead link"
+  "status": 200,
+  "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "Battle Arena Toshinden",
@@ -748,12 +748,6 @@
   "url": "https://github.com/officialmelon/bo2-recompiled",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Call of Duty: Modern Warfare 2",
-  "url": "http://ovz-game-production.up.railway.app",
-  "status": 0,
-  "reason": "dead link"
  },
  {
   "title": "Captain America: Super Soldier",
@@ -1640,7 +1634,7 @@
  {
   "title": "Eduke32",
   "url": "https://voidpoint.io/terminx/eduke32",
-  "status": 429,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -2558,7 +2552,7 @@
  {
   "title": "Hedgewars",
   "url": "http://webwars.link",
-  "status": 0,
+  "status": 400,
   "reason": "dead link"
  },
  {
@@ -4472,7 +4466,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -6484,12 +6478,6 @@
   "url": "https://github.com/sp00nznet/tokyojungle",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Tomb Raider (OpenLara)",
-  "url": "http://xproger.info/projects/OpenLara",
-  "status": 0,
-  "reason": "dead link"
  },
  {
   "title": "Tomba! 2: The Evil Swine Return",
