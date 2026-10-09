@@ -1,0 +1,209 @@
+{
+ "exclude": [
+  "https://github.com/endless-sky/endless-sky",
+  "https://github.com/Anuken/Mindustry",
+  "https://github.com/ClassiCube/ClassiCube",
+  "https://github.com/OpenHV/OpenHV",
+  "https://github.com/taisei-project/taisei",
+  "https://github.com/runelite/runelite",
+  "https://github.com/ericwa/ericw-tools",
+  "https://github.com/beyond-all-reason/Beyond-All-Reason",
+  "https://github.com/Trilarion/opensourcegames",
+  "https://github.com/Bishop-333/OmegA-mod",
+  "https://github.com/tuomount/Open-Realms-of-Stars",
+  "https://github.com/Secretchronicles/TSC",
+  "https://github.com/openclonk/openclonk",
+  "https://github.com/skyteks/WarKingdoms",
+  "https://github.com/SoftbearStudios/kiomet",
+  "https://github.com/BrokenGamesUG/rise-of-legions",
+  "https://github.com/openfrontio/OpenFrontIO",
+  "https://github.com/jurerotar/Pillage-First-Ask-Questions-Later",
+  "https://github.com/FreezingMoon/AncientBeast",
+  "https://github.com/quozl/netrek-client-cow",
+  "https://github.com/dalerank/Ozymandias",
+  "https://github.com/dginovker/2006rebotted",
+  "https://github.com/Kiki276/OpenRAG-Skill",
+  "https://github.com/zsdani68-cell/green-turkiye",
+  "https://github.com/SamoraCletus/castarook",
+  "https://github.com/0Mart00/ChaosGame",
+  "https://github.com/JobbeDeluxe/grenzmark",
+  "https://github.com/david-soliar/CzechDraughts",
+  "https://github.com/terraconcordiagame/terra-concordia-public",
+  "https://github.com/masaru-star/JS.Hakoniwa-Island",
+  "https://github.com/a-gondolkodas-orome/durer-jatekok",
+  "https://github.com/0wum0/galaxyofdrones",
+  "https://github.com/atxgreene/Ugh-Guys-",
+  "https://github.com/loosecannons/grid-wars",
+  "https://github.com/addictgamer/singularity-game-fork",
+  "https://github.com/lostjared/SpaceRox.MX2",
+  "https://github.com/ItsWazzaP/wazzaps-boss-generals",
+  "https://github.com/Nadawoo/invazion",
+  "https://github.com/gorsing/ufoai",
+  "https://github.com/Toksisitee/PopResourceEditor",
+  "https://github.com/movAX13h/HiOctaneTools",
+  "https://github.com/tomluchowski/OpenDungeonsPlus",
+  "https://github.com/VaultSparkStudios/vaultfront",
+  "https://github.com/begiedz/wedges-trial",
+  "https://github.com/FreeAllegiance/Allegiance",
+  "https://github.com/yairm210/Unciv",
+  "https://vibeslops.luckeysystems.com",
+  "https://tweetcraft.jai.vin/r/ti9bwes4ryguhkra",
+  "https://global-terror.net"
+ ],
+ "set": {
+  "https://github.com/Warzone2100/warzone2100": {
+   "type": "source-port"
+  },
+  "https://github.com/TerryCavanagh/VVVVVV": {
+   "type": "source-port"
+  },
+  "https://github.com/Meridian59/Meridian59": {
+   "type": "source-port"
+  },
+  "https://github.com/raceintospace/raceintospace": {
+   "type": "source-port"
+  },
+  "https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source": {
+   "type": "source-port"
+  },
+  "https://github.com/KranX/Vangers": {
+   "type": "source-port"
+  },
+  "https://github.com/Tribal-Trouble/tribaltrouble": {
+   "type": "source-port"
+  },
+  "https://github.com/DMJC/Descent3": {
+   "type": "source-port"
+  },
+  "https://github.com/iortcw/iortcw": {
+   "type": "source-port"
+  },
+  "https://github.com/JACoders/OpenJK": {
+   "type": "source-port"
+  },
+  "https://github.com/yquake2/yquake2": {
+   "type": "source-port"
+  },
+  "https://github.com/dsda-org/dsda-doom": {
+   "type": "source-port"
+  },
+  "https://github.com/scp-fs2open/fs2open.github.com": {
+   "type": "source-port"
+  },
+  "https://github.com/dxx-rebirth/dxx-rebirth": {
+   "type": "source-port"
+  },
+  "https://github.com/TheSuperHackers/GeneralsGameCode": {
+   "type": "source-port"
+  },
+  "https://github.com/TheAssemblyArmada/Vanilla-Conquer": {
+   "type": "source-port"
+  },
+  "https://github.com/olcayseygan/CnCGeneralsZH-Reforged": {
+   "type": "source-port"
+  },
+  "https://github.com/ioquake/ioq3": {
+   "type": "source-port"
+  },
+  "https://github.com/ec-/Quake3e": {
+   "type": "source-port"
+  },
+  "https://github.com/themuffinator/openQ4": {
+   "type": "source-port"
+  },
+  "https://github.com/glKarin/com.n0n3m4.diii4a": {
+   "type": "source-port"
+  },
+  "https://github.com/HarbourMasters/SpaghettiKart": {
+   "type": "source-port",
+   "title": "Mario Kart 64 (SpaghettiKart)",
+   "platform": "N64",
+   "game_key": "mariokart64"
+  },
+  "https://github.com/HarbourMasters/Ghostship": {
+   "type": "source-port",
+   "title": "Super Mario 64 (Ghostship)",
+   "platform": "N64"
+  },
+  "https://github.com/TwilitRealm/dusklight": {
+   "type": "source-port",
+   "title": "The Legend of Zelda: Twilight Princess (Dusklight)",
+   "platform": "GameCube",
+   "game_key": "thelegendofzeldatwilightprincess"
+  },
+  "https://github.com/isledecomp/isle-portable": {
+   "type": "source-port",
+   "title": "LEGO Island (isle-portable)",
+   "platform": "PC"
+  },
+  "https://github.com/HarbourMasters/Shipwright": {
+   "title": "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)"
+  },
+  "https://github.com/2ship2harkinian/2ship2harkinian": {
+   "title": "The Legend of Zelda: Majora's Mask (2 Ship 2 Harkinian)"
+  },
+  "https://github.com/Zelda64Recomp/Zelda64Recomp": {
+   "title": "The Legend of Zelda: Majora's Mask (Zelda64Recomp)"
+  },
+  "https://github.com/BanjoRecomp/BanjoRecomp": {
+   "title": "Banjo-Kazooie (BanjoRecomp)",
+   "platform": "N64"
+  },
+  "https://github.com/hedge-dev/UnleashedRecomp": {
+   "title": "Sonic Unleashed (Unleashed Recompiled)"
+  },
+  "https://github.com/sonicnext-dev/MarathonRecomp": {
+   "title": "Sonic the Hedgehog 2006 (Marathon Recompiled)"
+  },
+  "https://github.com/HarbourMasters/Starship": {
+   "title": "Star Fox 64 (Starship)"
+  },
+  "https://github.com/coop-deluxe/sm64coopdx": {
+   "title": "Super Mario 64 (sm64coopdx)"
+  },
+  "https://github.com/snesrev/zelda3": {
+   "title": "The Legend of Zelda: A Link to the Past (zelda3)",
+   "platform": "SNES"
+  },
+  "https://github.com/XProger/OpenLara": {
+   "title": "Tomb Raider 1-5 (OpenLara)"
+  },
+  "https://github.com/OpenMW/openmw": {
+   "title": "The Elder Scrolls III: Morrowind (OpenMW)",
+   "platform": "PC"
+  },
+  "https://github.com/OpenRCT2/OpenRCT2": {
+   "title": "RollerCoaster Tycoon 2 (OpenRCT2)"
+  },
+  "https://github.com/OpenTTD/OpenTTD": {
+   "title": "Transport Tycoon Deluxe (OpenTTD)",
+   "platform": "PC"
+  },
+  "https://github.com/diasurgical/DevilutionX": {
+   "title": "Diablo (DevilutionX)"
+  },
+  "https://github.com/vcmi/vcmi": {
+   "title": "Heroes of Might and Magic III (VCMI)",
+   "platform": "PC"
+  },
+  "https://github.com/dethrace-labs/dethrace": {
+   "title": "Carmageddon (dethrace)",
+   "platform": "PC"
+  },
+  "https://github.com/k4zmu2a/SpaceCadetPinball": {
+   "title": "3D Pinball Space Cadet",
+   "platform": "PC"
+  },
+  "https://github.com/RSDKModding/Sonic-Mania-Decompilation": {
+   "platform": "PC"
+  },
+  "https://github.com/bvschaik/julius": {
+   "title": "Caesar III (Julius)",
+   "platform": "PC"
+  },
+  "https://github.com/CorsixTH/CorsixTH": {
+   "title": "Theme Hospital (CorsixTH)",
+   "platform": "PC"
+  }
+ }
+}

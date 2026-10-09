@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Daily refresh: re-fetch sources, re-enrich (GitHub GraphQL + decomp.dev + link checks),
+# re-rate, and regenerate data/games.json + README.md.
+# Usage: scripts/refresh [--commit]     (needs: gh (authenticated), python3, requests, Pillow)
+set -euo pipefail
+cd "$(dirname "$0")/.."
+scripts/fetch_sources.sh
+python3 scripts/collect.py
+python3 scripts/enrich.py
+python3 scripts/build.py
+python3 scripts/media.py --missing-only --top 0 || echo "media step failed (non-fatal)"
+python3 scripts/build.py
+python3 scripts/gen_readme.py
+if [[ "${1:-}" == "--commit" ]]; then
+  git add -A data README.md screenshots
+  if ! git diff --cached --quiet; then
+    git commit -m "chore: daily refresh $(date -u +%Y-%m-%d)"
+    git push
+  else
+    echo "no changes"
+  fi
+fi

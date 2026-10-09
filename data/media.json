@@ -1,0 +1,451 @@
+{
+ "https://github.com/HarbourMasters/Shipwright": {
+  "top_pick": 1,
+  "note": "The definitive way to play Ocarina of Time on PC, Switch, Wii U and Android: 60fps, widescreen, randomizer, mods. Bring your own ROM.",
+  "screenshot": "screenshots/harbourmasters-shipwright.jpg",
+  "screenshot_score": 4,
+  "screenshot_source": "https://i.ytimg.com/vi/u-EhRErOpHE/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=u-EhRErOpHE",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/Zelda64Recomp/Zelda64Recomp": {
+  "top_pick": 2,
+  "note": "N64: Recompiled port of Majora's Mask with ultrawide, high framerate, gyro and a mod loader. Needs your US ROM.",
+  "screenshot": "screenshots/zelda64recomp-zelda64recomp.jpg",
+  "screenshot_score": 3,
+  "screenshot_source": "https://i.ytimg.com/vi/GIp7C2ro2T8/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=GIp7C2ro2T8",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/hedge-dev/UnleashedRecomp": {
+  "top_pick": 3,
+  "note": "XenonRecomp port of the Xbox 360 Sonic Unleashed: high framerate, ultrawide, mod support. Needs your own dump.",
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=yDlVr1Jv-WU",
+  "screenshot": "screenshots/hedge-dev-unleashedrecomp.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/yDlVr1Jv-WU/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/coop-deluxe/sm64coopdx": {
+  "top_pick": 4,
+  "note": "Super Mario 64 PC port with online co-op for up to 16 players, Lua mods and DynOS. Built from the SM64 decomp.",
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=hmqbLyszoYY",
+  "screenshot": "screenshots/coop-deluxe-sm64coopdx.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/hmqbLyszoYY/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/HarbourMasters/Starship": {
+  "top_pick": 5,
+  "note": "Native Star Fox 64 port (from the SF64 decomp) with widescreen, 60fps and enhancements.",
+  "screenshot": "screenshots/harbourmasters-starship.jpg",
+  "screenshot_score": 4,
+  "screenshot_source": "https://i.ytimg.com/vi/FZ3o09an9_k/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=FZ3o09an9_k",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/TwilitRealm/dusklight": {
+  "top_pick": 6,
+  "note": "PC/mobile port of Twilight Princess built on the zeldaret/tp decompilation, with fixes and enhancements.",
+  "screenshot": "screenshots/twilitrealm-dusklight.jpg",
+  "screenshot_score": 5,
+  "screenshot_source": "https://twilitrealm.dev/_astro/shot-platform.Cp2I0l-W_1nEglP.webp",
+  "screenshot_size": [
+   960,
+   540
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=9ivusJVCtFk",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/BanjoRecomp/BanjoRecomp": {
+  "top_pick": 7,
+  "note": "N64: Recompiled Banjo-Kazooie for Windows/Linux/Mac with widescreen, high framerate and Thunderstore mods.",
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=0906Cz-59eU",
+  "screenshot": "screenshots/banjorecomp-banjorecomp.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/5YIn43NP2t4/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/HarbourMasters/SpaghettiKart": {
+  "top_pick": 8,
+  "note": "Mario Kart 64 PC port from the MK64 decomp: HD, custom tracks, extra players and modding.",
+  "screenshot": "screenshots/harbourmasters-spaghettikart.jpg",
+  "screenshot_score": 5,
+  "screenshot_source": "https://i.ytimg.com/vi/EOWOtd8sZTQ/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=EOWOtd8sZTQ",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/diasurgical/DevilutionX": {
+  "top_pick": 9,
+  "note": "Diablo and Hellfire for modern systems (PC, consoles, handhelds), based on the reverse-engineered Devilution source.",
+  "screenshot": "screenshots/diasurgical-devilutionx.jpg",
+  "screenshot_score": 4,
+  "screenshot_source": "https://github.com/user-attachments/assets/ee902926-6382-4ee5-b1c2-7947e8b434e9",
+  "screenshot_size": [
+   853,
+   480
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=4fxOMpYWBGg",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/OpenRCT2/OpenRCT2": {
+  "top_pick": 10,
+  "note": "Full reimplementation of RollerCoaster Tycoon 2 with multiplayer, higher resolutions and quality-of-life fixes.",
+  "screenshot": "screenshots/openrct2-openrct2.jpg",
+  "screenshot_score": 5,
+  "screenshot_source": "https://github.com/user-attachments/assets/fa893cc8-1484-4751-94be-4ead00a6c8f9",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=8dXoNlAR0X4",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/snesrev/zelda3": {
+  "top_pick": 11,
+  "note": "Reverse-engineered C reimplementation of A Link to the Past: widescreen, pixel shaders, MSU-1. Needs the ROM for assets.",
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=xctizwBntag",
+  "screenshot": "screenshots/snesrev-zelda3.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/xctizwBntag/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/OpenMW/openmw": {
+  "top_pick": 12,
+  "note": "Open-source Morrowind engine: better performance, Lua modding, runs on Linux/macOS/Android.",
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=bR-WZ8NOG_k",
+  "screenshot": "screenshots/openmw-openmw.jpg",
+  "screenshot_source": "https://openmw.org/wp-content/uploads/2025/11/image.png",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/RSDKModding/Sonic-Mania-Decompilation": {
+  "top_pick": 13,
+  "note": "Complete decompilation of Sonic Mania that builds native ports for PC, Switch, Android and more.",
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=CSPhyjHt79Y",
+  "screenshot": "screenshots/rsdkmodding-sonic-mania-decompilation.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/CSPhyjHt79Y/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/OpenTTD/OpenTTD": {
+  "top_pick": 14,
+  "note": "The long-running, still active reimplementation of Transport Tycoon Deluxe; free graphics sets mean no original files are needed.",
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=ZBzRh6lD9J8",
+  "screenshot": "screenshots/openttd-openttd.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/ZBzRh6lD9J8/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/sonicnext-dev/MarathonRecomp": {
+  "top_pick": 15,
+  "note": "XenonRecomp port of Sonic the Hedgehog (2006), fixing much of its performance and loading.",
+  "video": "https://www.youtube.com/watch?v=kQVbKhjSBmk",
+  "checked": true,
+  "screenshot": "screenshots/sonicnext-dev-marathonrecomp.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/kQVbKhjSBmk/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/isledecomp/isle-portable": {
+  "top_pick": 16,
+  "note": "Cross-platform LEGO Island built on the full isledecomp decompilation (Windows, Linux, macOS, web, consoles).",
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=JUNdWnI5BTk",
+  "screenshot": "screenshots/isledecomp-isle-portable.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/JUNdWnI5BTk/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/vcmi/vcmi": {
+  "top_pick": 17,
+  "note": "Heroes of Might and Magic III engine rewrite with HD, mods, multiplayer and Android support.",
+  "screenshot": "screenshots/vcmi-vcmi.jpg",
+  "screenshot_score": 5,
+  "screenshot_source": "https://raw.githubusercontent.com/vcmi/VCMI.eu/master/static/img/screenshots/1.4.0/Antagarich%20Burning%20Battle.jpg?raw=true",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=zxC7wLITNpg",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/XProger/OpenLara": {
+  "top_pick": 18,
+  "note": "Classic Tomb Raider engine that runs on PC, phones, browsers and retro consoles.",
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=RRhyua_l5U8",
+  "screenshot": "screenshots/xproger-openlara.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/RRhyua_l5U8/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/dethrace-labs/dethrace": {
+  "top_pick": 19,
+  "note": "Reverse-engineered Carmageddon that runs natively on modern Windows, Linux and macOS.",
+  "screenshot": "screenshots/dethrace-labs-dethrace.jpg",
+  "screenshot_score": 3,
+  "screenshot_source": "https://i.ytimg.com/vi/MMI45O0RKq0/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=MMI45O0RKq0",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/k4zmu2a/SpaceCadetPinball": {
+  "top_pick": 20,
+  "note": "Decompilation of Windows' 3D Pinball Space Cadet, ported to modern platforms.",
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=smiCSU2sje8",
+  "screenshot": "screenshots/k4zmu2a-spacecadetpinball.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/smiCSU2sje8/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/CorsixTH/CorsixTH": {
+  "top_pick": 21,
+  "note": "Open reimplementation of Theme Hospital with high resolutions and campaign editor.",
+  "screenshot": "screenshots/corsixth-corsixth.jpg",
+  "screenshot_score": 4,
+  "screenshot_source": "https://github.com/CorsixTH/CorsixTH/assets/20030128/71a42d5f-d486-4309-ba85-77e114880bcb",
+  "screenshot_size": [
+   697,
+   434
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=fKq04q6a53s",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/bvschaik/julius": {
+  "top_pick": 22,
+  "note": "Faithful reimplementation of Caesar III that fixes bugs and runs on modern systems; Augustus adds gameplay changes.",
+  "screenshot": "screenshots/bvschaik-julius.jpg",
+  "screenshot_score": 5,
+  "screenshot_source": "https://raw.githubusercontent.com/bvschaik/julius/master/res/vita/bg.png",
+  "screenshot_size": [
+   800,
+   500
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=OXONBt5U-U0",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://q3js.com": {
+  "top_pick": 23,
+  "note": "Quake III Arena in the browser (WebAssembly ioquake3): click and play instantly, demo data included.",
+  "screenshot": "screenshots/quake-iii-arena.jpg",
+  "screenshot_score": 4,
+  "screenshot_source": "https://recompiledgames.com/img/games/quake-iii-arena-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "checked": true,
+  "video": "https://www.youtube.com/watch?v=de7PNFRHNts",
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/Warzone2100/warzone2100": {
+  "screenshot": "screenshots/warzone2100-warzone2100.jpg",
+  "screenshot_score": 3,
+  "screenshot_source": "https://repository-images.githubusercontent.com/1084181/ad379400-913f-11eb-8e30-85f3134ab00e",
+  "screenshot_size": [
+   1280,
+   640
+  ],
+  "checked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/TerryCavanagh/VVVVVV": {
+  "checked": true
+ },
+ "https://github.com/SFTtech/openage": {
+  "video": "https://www.youtube.com/watch?v=fQGbXmkSArs",
+  "checked": true,
+  "screenshot": "screenshots/sfttech-openage.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/fQGbXmkSArs/maxresdefault.jpg",
+  "screenshot_size": [
+   480,
+   360
+  ],
+  "screenshot_score": 1,
+  "screenshot_reviewed": true,
+  "locked": true
+ },
+ "https://github.com/nicholas-ochoa/OpenSC2K": {
+  "checked": true
+ },
+ "https://github.com/Supermedo/bloodborne_pc": {
+  "checked": true
+ },
+ "https://github.com/patchzyy/Wiicompiled": {
+  "checked": true
+ },
+ "https://github.com/OpenCommunityEdition/OpenCE": {
+  "screenshot": "screenshots/opencommunityedition-opence.jpg",
+  "screenshot_score": 4,
+  "screenshot_source": "https://github.com/user-attachments/assets/0d3ad50f-f8b8-46cf-aef8-e3661da2a7d7",
+  "screenshot_size": [
+   1280,
+   988
+  ],
+  "checked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/mchughalex/skate3recomp": {
+  "video": "https://youtu.be/ETXCOsip1Uo",
+  "checked": true,
+  "screenshot": "screenshots/mchughalex-skate3recomp.jpg",
+  "screenshot_source": "https://i.ytimg.com/vi/ETXCOsip1Uo/maxresdefault.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 1,
+  "screenshot_reviewed": true,
+  "locked": true
+ },
+ "https://github.com/chocolate-doom/chocolate-doom": {
+  "checked": true
+ },
+ "https://github.com/TheSuperHackers/GeneralsGameCode": {
+  "checked": true
+ },
+ "https://github.com/open-goal/jak-project": {
+  "video": "https://youtu.be/K84UUMnkJc4",
+  "screenshot": "screenshots/open-goal-jak-project.jpg",
+  "screenshot_score": 5,
+  "screenshot_source": "https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall1.png",
+  "screenshot_size": [
+   960,
+   540
+  ],
+  "checked": true,
+  "screenshot_reviewed": true
+ },
+ "https://github.com/JACoders/OpenJK": {
+  "checked": true
+ },
+ "https://github.com/ec-/Quake3e": {
+  "checked": true
+ },
+ "https://github.com/2ship2harkinian/2ship2harkinian": {
+  "checked": true
+ },
+ "https://github.com/UZDoom/UZDoom": {
+  "checked": true
+ },
+ "https://github.com/Novum/vkQuake": {
+  "checked": true
+ },
+ "https://github.com/cxong/cdogs-sdl": {
+  "screenshot": "screenshots/cxong-cdogs-sdl.jpg",
+  "screenshot_score": 3,
+  "screenshot_source": "https://repository-images.githubusercontent.com/7571859/6ee4f273-6ea6-450d-a2c0-a8136782ec12",
+  "screenshot_size": [
+   1280,
+   640
+  ],
+  "checked": true,
+  "screenshot_reviewed": true
+ }
+}

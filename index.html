@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Awesome Decomp Games: decompiled, recompiled & reverse-engineered games</title>
+<meta name="description" content="A rated, searchable list of game decompilations, static recompilations, source ports, engine remakes and browser ports.">
+<style>
+:root{--bg:#0e1116;--panel:#161b22;--line:#2a313c;--fg:#e6edf3;--mut:#8b949e;--acc:#58a6ff;--good:#3fb950;--warn:#d29922}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
+header{padding:28px 20px 8px;max-width:1300px;margin:auto}h1{margin:0 0 6px;font-size:28px}header p{margin:4px 0;color:var(--mut)}
+main{max-width:1300px;margin:auto;padding:0 20px 60px}
+.legal{background:#1d2430;border:1px solid var(--line);border-radius:8px;padding:10px 14px;color:var(--mut);font-size:13px;margin:12px 0}
+h2{margin:28px 0 12px;font-size:20px}
+.picks{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:16/10;object-fit:cover;background:#000;display:block}
+.card .ph{aspect-ratio:16/10;display:flex;align-items:center;justify-content:center;color:var(--mut);background:#0b0d11;font-size:13px}
+.card .b{padding:10px 12px;flex:1;display:flex;flex-direction:column;gap:4px}.card h3{margin:0;font-size:16px}
+.meta{color:var(--mut);font-size:12.5px}.desc{font-size:13px;color:#c9d1d9}
+.lk a{margin-right:10px;font-size:13px}
+.tag{display:inline-block;padding:1px 7px;border-radius:10px;border:1px solid var(--line);font-size:11.5px;color:var(--mut);margin-right:4px}
+.score{font-weight:700;color:var(--good)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:2;border-bottom:1px solid var(--line)}
+.controls input,.controls select{background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:7px 9px;font-size:14px}
+#q{flex:1;min-width:200px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 4px}
+.tabs button{background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:16px;padding:5px 12px;cursor:pointer;font-size:13px}
+.tabs button.on{background:var(--acc);color:#000;border-color:var(--acc)}
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:14px}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--mut);font-weight:600;font-size:12.5px}
+td.n{white-space:nowrap;text-align:right}td small{color:var(--mut);display:block;max-width:520px}
+.bar{height:5px;background:#30363d;border-radius:3px;width:60px;display:inline-block;vertical-align:middle}.bar i{display:block;height:100%;background:var(--good);border-radius:3px}
+#more{margin:16px auto;display:block;background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:8px 18px;cursor:pointer}
+footer{color:var(--mut);font-size:13px;max-width:1300px;margin:auto;padding:20px}
+@media(max-width:700px){.hide-m{display:none}}
+</style>
+</head>
+<body>
+<header>
+<h1>🕹️ Awesome Decomp Games</h1>
+<p id="stats">Loading…</p>
+<p><a href="https://github.com/SubmitGame/awesome-decomp-games">GitHub repo</a> · <a href="data/games.json">games.json</a> · <a href="https://github.com/SubmitGame/awesome-decomp-games/blob/main/CONTRIBUTING.md">Add a project</a></p>
+</header>
+<main>
+<div class="legal">This site only links to open-source projects and their pages. It does not host or link to ROMs, ISOs or game assets. Most projects need files from a copy of the game you own. All trademarks belong to their owners.</div>
+<h2>⭐ Top playable picks</h2>
+<div class="picks" id="picks"></div>
+<h2>All projects</h2>
+<div class="tabs" id="tabs"></div>
+<div class="controls">
+<input id="q" type="search" placeholder="Search game, platform, repo…" aria-label="Search">
+<select id="plat" aria-label="Platform"><option value="">All platforms</option></select>
+<select id="sort" aria-label="Sort"><option value="score">Best score</option><option value="stars">Most stars</option><option value="recent">Recently updated</option><option value="progress">Decomp progress</option><option value="name">Name</option></select>
+<label class="meta"><input type="checkbox" id="playable"> playable now</label>
+<span class="meta" id="count"></span>
+</div>
+<table><thead><tr><th>Game</th><th>Type</th><th>Platform</th><th class="n">Score</th><th class="n hide-m">⭐</th><th class="hide-m">Last commit</th><th class="hide-m">Progress</th><th>Links</th></tr></thead><tbody id="rows"></tbody></table>
+<button id="more" hidden>Show more</button>
+</main>
+<footer>Generated from <a href="data/games.json">data/games.json</a>. List data CC0, code MIT. Ratings are automatic: playability, completeness, activity and popularity (1-5 each).</footer>
+<script>
+const $=s=>document.querySelector(s);let D,topic="",limit=150;
+const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=n=>n==null?"":n>=1000?(n/1000).toFixed(1)+"k":n;
+const safe=u=>/^https?:\/\//.test(u||"")?u:"#";
+function links(e){const l=[];if(e.play_url)l.push(`<a href="${esc(safe(e.play_url))}" target="_blank" rel="noopener">play</a>`);if(e.release_url)l.push(`<a href="${esc(safe(e.release_url))}" target="_blank" rel="noopener">release</a>`);if(e.decompdev_url)l.push(`<a href="${esc(safe(e.decompdev_url))}" target="_blank" rel="noopener">progress</a>`);if(e.video)l.push(`<a href="${esc(safe(e.video))}" target="_blank" rel="noopener">video</a>`);return l.join(" ")}
+function tname(t){return D.topics[t]?D.topics[t].name:t}
+function render(){
+ const q=$("#q").value.trim().toLowerCase(),p=$("#plat").value,pl=$("#playable").checked,s=$("#sort").value;
+ let L=D.games.filter(e=>(!topic||e.type===topic)&&(!p||e.platform===p)&&(!pl||e.ratings.playability>=4)&&(!q||(e.title+" "+e.platform+" "+(e.repo||"")+" "+(e.description||"")).toLowerCase().includes(q)));
+ const k={score:e=>-e.score,stars:e=>-(e.stars||0),recent:e=>-(Date.parse(e.last_commit||0)||0),progress:e=>-(e.progress??-1),name:e=>e.title.toLowerCase()}[s];
+ L.sort((a,b)=>{const x=k(a),y=k(b);return x<y?-1:x>y?1:0});
+ $("#count").textContent=L.length+" shown";
+ $("#rows").innerHTML=L.slice(0,limit).map(e=>`<tr><td><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a>${e.ai_flag?" ⚠️":""}${e.archived?" 🗄️":""}<small>${esc(e.description||"").slice(0,140)}</small></td><td><span class="tag">${esc(tname(e.type))}</span></td><td>${esc(e.platform)}</td><td class="n score" title="play ${e.ratings.playability} · completeness ${e.ratings.completeness} · activity ${e.ratings.activity} · popularity ${e.ratings.popularity}">${e.score.toFixed(1)}</td><td class="n hide-m">${fmt(e.stars)}</td><td class="hide-m">${(e.last_commit||"").slice(0,10)}</td><td class="hide-m">${e.progress!=null?`<span class="bar"><i style="width:${Math.min(100,e.progress)}%"></i></span> ${e.progress.toFixed(0)}%`:""}</td><td>${links(e)}</td></tr>`).join("");
+ $("#more").hidden=L.length<=limit;
+}
+fetch("data/games.json").then(r=>r.json()).then(d=>{D=d;
+ $("#stats").textContent=`${d.total} projects · ${d.unique_games} games · updated ${d.generated_at.slice(0,10)}`;
+ const picks=d.games.filter(e=>e.top_pick).sort((a,b)=>a.top_pick-b.top_pick);
+ $("#picks").innerHTML=picks.map(e=>`<div class="card">${e.screenshot?`<a href="${esc(safe(e.url))}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(e.screenshot)}" alt="${esc(e.title)} screenshot"></a>`:`<div class="ph">${esc(e.platform)}</div>`}<div class="b"><h3><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a></h3><div class="meta"><span class="tag">${esc(tname(e.type))}</span>${esc(e.platform)} · ⭐ ${fmt(e.stars)} · <span class="score">${e.score.toFixed(1)}</span>/5</div><div class="desc">${esc(e.note||e.description||"")}</div><div class="lk"><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">project</a>${links(e)}</div></div></div>`).join("");
+ $("#tabs").innerHTML=`<button class="on" data-t="">All (${d.total})</button>`+Object.keys(d.topics).filter(t=>d.counts[t]).map(t=>`<button data-t="${t}">${esc(d.topics[t].name)} (${d.counts[t]})</button>`).join("");
+ $("#tabs").onclick=ev=>{const b=ev.target.closest("button");if(!b)return;topic=b.dataset.t;limit=150;document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x===b));render()};
+ const plats=[...new Set(d.games.map(e=>e.platform).filter(Boolean))].sort();
+ $("#plat").innerHTML+=plats.map(p=>`<option>${esc(p)}</option>`).join("");
+ ["#q","#plat","#sort","#playable"].forEach(s=>$(s).addEventListener("input",()=>{limit=150;render()}));
+ $("#more").onclick=()=>{limit+=300;render()};render();
+}).catch(err=>{$("#stats").textContent="Failed to load data/games.json: "+err});
+</script>
+</body>
+</html>
