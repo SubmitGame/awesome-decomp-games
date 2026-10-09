@@ -1640,7 +1640,7 @@
  {
   "title": "Eduke32",
   "url": "https://voidpoint.io/terminx/eduke32",
-  "status": 200,
+  "status": 429,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -2864,12 +2864,6 @@
  {
   "title": "King's Field",
   "url": "https://github.com/alexbeavs-ps1-ports/kings-field-recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "King's Field II",
-  "url": "https://github.com/Voicedrew11/verdite3",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },

@@ -88,7 +88,11 @@ def parse_md(fn, src, plat_from_section=False, hint_fn=None):
 # 1. Samidy
 if os.path.exists(os.path.join(RAW, "samidy.md")): parse_md("samidy.md", "samidy")
 # 2. Charlotte (sections are consoles)
-parse_md("charlotte.md", "charlotte", plat_from_section=True)
+def have(fn):
+    ok = os.path.exists(os.path.join(RAW, fn))
+    if not ok: print("WARN: missing source", fn, file=sys.stderr)
+    return ok
+if have("charlotte.md"): parse_md("charlotte.md", "charlotte", plat_from_section=True)
 # 3. awesome-game-remakes (engine remakes / source ports / recomps)
 def remake_hint(t, u, d, sec):
     dl = d.lower()
@@ -96,10 +100,10 @@ def remake_hint(t, u, d, sec):
     if re.search(r"javascript|browser|web\b|wasm", dl): return "browser"
     if re.search(r"source port|\bport\b", dl): return "port"
     return "remake"
-parse_md("remakes.md", "awesome-game-remakes", hint_fn=remake_hint)
+if have("remakes.md"): parse_md("remakes.md", "awesome-game-remakes", hint_fn=remake_hint)
 # 4. BlueInterlude awesome-recompilations: headings = game, bare github links
 sec, plat = "", ""
-for line in open(os.path.join(RAW, "blueinterlude.md"), encoding="utf-8"):
+for line in (open(os.path.join(RAW, "blueinterlude.md"), encoding="utf-8") if have("blueinterlude.md") else []):
     h = re.match(r"^(#{3,4})\s+(.*)", line)
     if h:
         if h.group(1) == "###": plat = h.group(2).strip()
@@ -108,7 +112,7 @@ for line in open(os.path.join(RAW, "blueinterlude.md"), encoding="utf-8"):
         if sec.lower() in ("template", "mods"): continue
         add("awesome-recompilations", sec, u, plat if plat in ("N64", "Xbox 360") else "", "recomp")
 # 5. decomp.dev
-dd = json.load(open(os.path.join(RAW, "decompdev.json")))["projects"]
+dd = json.load(open(os.path.join(RAW, "decompdev.json")))["projects"] if have("decompdev.json") else []
 for p in dd:
     m = p.get("measures") or {}
     add("decomp.dev", p["name"], p["repo_url"], p.get("platform", ""), "decomp", "",
@@ -116,7 +120,7 @@ for p in dd:
          "progress_functions": round(m.get("matched_functions_percent", 0) or 0, 2),
          "decompdev_url": f"https://decomp.dev/{p['owner']}/{p['repo']}"})
 # 6. recompiledgames.com (browser ports in data-* attrs)
-h = open(os.path.join(RAW, "recompiledgames.html"), encoding="utf-8").read()
+h = open(os.path.join(RAW, "recompiledgames.html"), encoding="utf-8").read() if have("recompiledgames.html") else ""
 for li in re.findall(r'<li class="row"(.*?)</li>', h, re.S):
     attrs = dict(re.findall(r'data-(\w+)="([^"]*)"', li))
     name = re.search(r'class="c-game"><a href="([^"]+)">([^<]+)</a>', li)
@@ -133,7 +137,7 @@ for li in re.findall(r'<li class="row"(.*?)</li>', h, re.S):
          "multiplayer": attrs.get("mp") == "1", "rg_ok": attrs.get("ok") == "1",
          "thumb_src": ("https://recompiledgames.com" + thumb.group(1)) if thumb else None})
 # 7. recomp.fyi table
-if "--no-recompfyi" not in sys.argv:
+if "--no-recompfyi" not in sys.argv and have("recompfyi.html"):
     h = open(os.path.join(RAW, "recompfyi.html"), encoding="utf-8").read()
     for tr in re.findall(r'<tr class="data-row"(.*?)</tr>', h, re.S):
         g = re.search(r'class="game-link">([^<]+)', tr)
