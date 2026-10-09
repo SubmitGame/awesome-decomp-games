@@ -780,5 +780,131 @@
    630
   ],
   "screenshot_score": 5
+ },
+ "http://vel.gg/bo1z": {
+  "screenshot": "screenshots/browser-call-of-duty-black-ops-zombies.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/black-ops-zombies-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://ovz-game-production.up.railway.app": {
+  "screenshot": "screenshots/browser-call-of-duty-modern-warfare-2.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/modern-warfare-2-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://surfd.net": {
+  "screenshot": "screenshots/browser-counter-strike-source-surf-surfd.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/surfd-cs-surf-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://johnimril.github.io/diablo_web": {
+  "screenshot": "screenshots/browser-diablo.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/diablo-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://pixelsuft.github.io/hl": {
+  "screenshot": "screenshots/browser-half-life-pixelsuft.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/half-life-pixelsuft-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://x8bitrain.github.io/webXash": {
+  "screenshot": "screenshots/browser-half-life-and-counter-strike-1-6-webxash.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/half-life-counter-strike-webxash-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://pes6.optijuegos.net": {
+  "screenshot": "screenshots/browser-pro-evolution-soccer-6.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/pro-evolution-soccer-6-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://q2.pieter.com": {
+  "screenshot": "screenshots/browser-quake-ii.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/quake-ii-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://q1.pieter.com": {
+  "screenshot": "screenshots/browser-quakeworld.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/quakeworld-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://rtcw.pieter.com": {
+  "screenshot": "screenshots/browser-return-to-castle-wolfenstein.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/return-to-castle-wolfenstein-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://skate.aaddpp.lol": {
+  "screenshot": "screenshots/browser-skate-3.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/skate-3-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://shar-wasm.cjoseph.workers.dev/?skipmovie": {
+  "screenshot": "screenshots/browser-the-simpsons-hit-run.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/the-simpsons-hit-and-run-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://xproger.info/projects/OpenLara": {
+  "screenshot": "screenshots/browser-tomb-raider-openlara.jpg",
+  "screenshot_source": "live capture of http://xproger.info/projects/OpenLara/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "http://ut.pieter.com": {
+  "screenshot": "screenshots/browser-urban-terror-listed-as-unreal-tournament.jpg",
+  "screenshot_source": "https://ut.pieter.com/assets/og.jpg?v=1",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
  }
 }

@@ -20,7 +20,7 @@
  {
   "title": "2009scape",
   "url": "https://2009scape.org",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -458,8 +458,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 0,
-  "reason": "dead link"
+  "status": 200,
+  "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "Battle Arena Toshinden",
@@ -876,6 +876,12 @@
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
+  "title": "Cheese Cube (Black Ops III custom map)",
+  "url": "http://cheese-cube.pages.dev",
+  "status": 0,
+  "reason": "dead link"
+ },
+ {
   "title": "Chibi-Robo!",
   "url": "https://github.com/xXJSONDeruloXx/chibi-recompo",
   "status": 200,
@@ -934,6 +940,12 @@
   "url": "https://github.com/Pendrokar/civizard_decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Claude of Duty: Vibe Slops II",
+  "url": "http://vibeslops.luckeysystems.com",
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Coaster",
@@ -2552,7 +2564,7 @@
  {
   "title": "Hedgewars",
   "url": "http://webwars.link",
-  "status": 0,
+  "status": 400,
   "reason": "dead link"
  },
  {
@@ -2890,6 +2902,12 @@
   "url": "https://github.com/azurejoga/kh-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Kino der Toten (Zombies)",
+  "url": "http://kino-der-toten.pages.dev",
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Kirby & the Amazing Mirror",
@@ -3768,6 +3786,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Moon (Zombies)",
+  "url": "http://moon-zombies.pages.dev",
+  "status": 0,
+  "reason": "dead link"
+ },
+ {
   "title": "Mortal Kombat (2011)",
   "url": "https://github.com/WINDROID-EMU/MK9-RECOMP",
   "status": 200,
@@ -4460,7 +4484,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -6478,12 +6502,6 @@
   "url": "https://github.com/sp00nznet/tokyojungle",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Tomb Raider (OpenLara)",
-  "url": "http://xproger.info/projects/OpenLara",
-  "status": 0,
-  "reason": "dead link"
  },
  {
   "title": "Tomba! 2: The Evil Swine Return",
