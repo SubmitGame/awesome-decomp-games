@@ -20,6 +20,7 @@ h2{margin:28px 0 12px;font-size:20px}
 .card .b{padding:10px 12px;flex:1;display:flex;flex-direction:column;gap:4px}.card h3{margin:0;font-size:16px}
 .meta{color:var(--mut);font-size:12.5px}.desc{font-size:13px;color:#c9d1d9}
 .lk a{margin-right:10px;font-size:13px}
+a.playbtn{display:inline-block;margin-top:6px;background:var(--good);color:#04130a;font-weight:700;padding:7px 14px;border-radius:6px;text-align:center}a.playbtn:hover{text-decoration:none;filter:brightness(1.1)}
 .tag{display:inline-block;padding:1px 7px;border-radius:10px;border:1px solid var(--line);font-size:11.5px;color:var(--mut);margin-right:4px}
 .score{font-weight:700;color:var(--good)}
 .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:2;border-bottom:1px solid var(--line)}
@@ -47,6 +48,9 @@ footer{color:var(--mut);font-size:13px;max-width:1300px;margin:auto;padding:20px
 <div class="legal">This site only links to open-source projects and their pages. It does not host or link to ROMs, ISOs or game assets. Most projects need files from a copy of the game you own. All trademarks belong to their owners.</div>
 <h2>⭐ Top playable picks</h2>
 <div class="picks" id="picks"></div>
+<h2 id="play">▶ Play in your browser <span class="meta" id="bcount"></span></h2>
+<p class="meta">Launch straight from a tab. Links are re-checked daily in a real browser, and taken-down ones are hidden. Some need files from your own copy. Never install launchers or extensions a site pushes.</p>
+<div class="picks" id="browser"></div>
 <h2>All projects</h2>
 <div class="tabs" id="tabs"></div>
 <div class="controls">
@@ -80,6 +84,10 @@ fetch("data/games.json").then(r=>r.json()).then(d=>{D=d;
  $("#stats").textContent=`${d.total} projects · ${d.unique_games} games · updated ${d.generated_at.slice(0,10)}`;
  const picks=d.games.filter(e=>e.top_pick).sort((a,b)=>a.top_pick-b.top_pick);
  $("#picks").innerHTML=picks.map(e=>`<div class="card">${e.screenshot?`<a href="${esc(safe(e.url))}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(e.screenshot)}" alt="${esc(e.title)} screenshot"></a>`:`<div class="ph">${esc(e.platform)}</div>`}<div class="b"><h3><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a></h3><div class="meta"><span class="tag">${esc(tname(e.type))}</span>${esc(e.platform)}${e.stars!=null?" · ⭐ "+fmt(e.stars):""} · <span class="score">${e.score.toFixed(1)}</span>/5</div><div class="desc">${esc(e.note||e.description||"")}</div><div class="lk"><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">project</a>${links(e)}</div></div></div>`).join("");
+ const A={instant:"plays instantly",byo:"needs your game files"};
+ const br=d.games.filter(e=>e.browser_playable).sort((a,b)=>(!!b.screenshot-!!a.screenshot)||b.score-a.score);
+ $("#bcount").textContent="("+br.length+")";
+ $("#browser").innerHTML=br.map(e=>`<div class="card">${e.screenshot?`<a href="${esc(safe(e.play_url))}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(e.screenshot)}" alt="${esc(e.title)} screenshot"></a>`:`<div class="ph">${esc(e.platform)}</div>`}<div class="b"><h3>${esc(e.title)}</h3><div class="meta">${esc(e.platform)}${A[e.needs_assets]?" · "+A[e.needs_assets]:""}${e.multiplayer?" · multiplayer":""}</div><div class="desc">${esc(e.description||"")}</div><a class="playbtn" href="${esc(safe(e.play_url))}" target="_blank" rel="noopener">▶ Play in browser</a></div></div>`).join("");
  $("#tabs").innerHTML=`<button class="on" data-t="">All (${d.total})</button>`+Object.keys(d.topics).filter(t=>d.counts[t]).map(t=>`<button data-t="${t}">${esc(d.topics[t].name)} (${d.counts[t]})</button>`).join("");
  $("#tabs").onclick=ev=>{const b=ev.target.closest("button");if(!b)return;topic=b.dataset.t;limit=150;document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x===b));render()};
  const plats=[...new Set(d.games.map(e=>e.platform).filter(Boolean))].sort();

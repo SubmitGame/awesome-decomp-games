@@ -46,9 +46,9 @@
   "https://github.com/begiedz/wedges-trial",
   "https://github.com/FreeAllegiance/Allegiance",
   "https://github.com/yairm210/Unciv",
-  "https://vibeslops.luckeysystems.com",
   "https://tweetcraft.jai.vin/r/ti9bwes4ryguhkra",
-  "https://global-terror.net"
+  "https://global-terror.net",
+  "https://vibeslops.luckeysystems.com"
  ],
  "set": {
   "https://github.com/Warzone2100/warzone2100": {
@@ -204,6 +204,32 @@
   "https://github.com/CorsixTH/CorsixTH": {
    "title": "Theme Hospital (CorsixTH)",
    "platform": "PC"
+  },
+  "http://ovz-game-production.up.railway.app": {
+   "description": "Browser Modern Warfare 2 reconstruction. The host currently shows a traffic check before loading."
+  },
+  "http://skate.aaddpp.lol": {
+   "title": "Skate 3 (fan browser game)",
+   "description": "Unofficial, non-commercial skate. 3 fan game in the browser; no EA game code."
+  },
+  "http://ut.pieter.com": {
+   "title": "Urban Terror (ut.pieter.com)",
+   "description": "Urban Terror multiplayer in the browser. The X post lists it as 'Unreal Tournament'."
+  },
+  "http://q1.pieter.com": {
+   "title": "QuakeWorld (q1.pieter.com)"
+  },
+  "http://q2.pieter.com": {
+   "title": "Quake II (q2.pieter.com)"
+  },
+  "http://rtcw.pieter.com": {
+   "title": "Return to Castle Wolfenstein (rtcw.pieter.com)"
+  },
+  "https://q3js.com": {
+   "title": "Quake III Arena (q3js)"
+  },
+  "http://johnimril.github.io/diablo_web": {
+   "title": "Diablo (diablo_web)"
   }
  }
 }

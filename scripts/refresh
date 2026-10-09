@@ -9,6 +9,9 @@ python3 scripts/collect.py
 python3 scripts/enrich.py
 python3 scripts/build.py
 python3 scripts/media.py --missing-only --top 0 || echo "media step failed (non-fatal)"
+python3 scripts/browser_check.py || echo "browser check failed (non-fatal)"
+python3 scripts/build.py
+python3 scripts/browser_media.py --missing-only || echo "browser media failed (non-fatal)"
 python3 scripts/build.py
 python3 scripts/gen_readme.py
 if [[ "${1:-}" == "--commit" ]]; then

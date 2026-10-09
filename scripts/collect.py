@@ -155,7 +155,19 @@ if "--no-recompfyi" not in sys.argv and have("recompfyi.html"):
 ap = os.path.join(ROOT, "data", "additions.json")
 if os.path.exists(ap):
     for a in json.load(open(ap)):
-        add("manual", a["title"], a["url"], a.get("platform", ""), a.get("type", ""), a.get("description", ""))
+        r = add(a.get("source", "manual"), a["title"], a["url"], a.get("platform", ""), a.get("type", ""), a.get("description", ""),
+                {"play_url": a.get("play_url"), "info_url": a.get("info_url")})
+        if r and a.get("ai_flag"): r["ai_flag"] = True
+
+# 9. source tags (data/source_tags.json): {"source-id": [urls]} -> tag records whose url/play_url matches
+tp = os.path.join(ROOT, "data", "source_tags.json")
+if os.path.exists(tp):
+    for src, urls in json.load(open(tp)).items():
+        keys = [url_key(u).rstrip("/") for u in urls]
+        for r in records.values():
+            mine = [url_key(x).rstrip("/") for x in (r["url"], r.get("play_url"), r.get("info_url")) if x]
+            if any(m == k or m.startswith(k + "/") or k.startswith(m + "/") for m in mine for k in keys):
+                if src not in r["sources"]: r["sources"].append(src)
 
 out = sorted(records.values(), key=lambda r: r["title"].lower())
 for r in out: r["game_key"] = game_key(r["title"])

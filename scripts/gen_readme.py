@@ -31,7 +31,7 @@ L += ["<!-- GENERATED FILE: edit data/ and run scripts/refresh, not this file --
 f"**{doc['total']} projects** covering **{doc['unique_games']} games** · updated {date(doc['generated_at'])} · browse and filter on the **[website]({SITE})** · data in [`data/games.json`](data/games.json)", "",
 "> [!IMPORTANT]",
 "> This list only links to source code and project pages. It does **not** host or link to ROMs, ISOs, game assets or other copyrighted material. Most projects need files from a copy of the game you own. See the [disclaimer](#disclaimer).", "",
-"## Contents", "", "- [Top playable picks](#top-playable-picks)"]
+"## Contents", "", "- [Top playable picks](#top-playable-picks)", f"- [Play in your browser](#play-in-your-browser) ({sum(1 for e in G if e.get('browser_playable'))})"]
 for k in T:
     if doc["counts"].get(k): L.append(f"- [{T[k]['name']}](#{anchor(T[k]['name'])}) ({doc['counts'][k]})")
 L += ["- [How entries are rated](#how-entries-are-rated)", "- [Sources](#sources)", "- [Contributing](#contributing)", "- [Disclaimer](#disclaimer)", "- [License](#license)", ""]
@@ -49,6 +49,19 @@ for i, e in enumerate(picks, 1):
     if e.get("screenshot"):
         L += ["", f'<a href="{e["url"]}"><img src="{e["screenshot"]}" width="480" alt="{esc(e["title"])} screenshot"></a>']
     L.append("")
+
+browser = sorted([e for e in G if e.get("browser_playable")], key=lambda e: (-(e.get("screenshot") is not None), -e["score"], e["title"].lower()))
+L += ["## Play in your browser", "", f"{len(browser)} games you can launch straight from a browser tab (WebAssembly/JS ports and recompilations). Links are re-checked daily in a real browser; ones that are taken down or broken are hidden. Some ask for files from your own copy of the game. Never install a launcher or extension a site pushes on you.", ""]
+ASSETS = {"instant": "plays instantly", "byo": "needs your game files", "unknown": ""}
+cells = []
+for e in browser:
+    img = f'<a href="{e["play_url"]}"><img src="{e["screenshot"]}" width="240" alt="{esc(e["title"])}"></a><br>' if e.get("screenshot") else ""
+    extra = " · ".join(x for x in [esc(e["platform"]), ASSETS.get(e.get("needs_assets") or "", ""), "multiplayer" if e.get("multiplayer") else ""] if x)
+    cells.append(f'{img}<b>{esc(e["title"])}</b><br><a href="{e["play_url"]}"><b>▶ Play in browser</b></a><br><sub>{extra}</sub>')
+L.append("<table>")
+for i in range(0, len(cells), 3):
+    L.append("<tr>" + "".join(f'<td align="center" valign="top" width="33%">{c}</td>' for c in cells[i:i+3]) + "</tr>")
+L += ["</table>", ""]
 
 for k in T:
     rows = sorted([e for e in G if e["type"] == k], key=lambda e: (-e["score"], e["title"].lower()))

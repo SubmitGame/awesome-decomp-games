@@ -70,7 +70,7 @@ def rate(e):
     else: comp = 2
     if re.search(r"\b(wip|work in progress|early|incomplete|not (yet )?playable|in progress)\b", desc): comp = min(comp, 3)
     # playability (can an end user actually play it?)
-    if typ == "browser-port": play = 5 if e["link_ok"] else 1
+    if typ == "browser-port": play = 5 if e["link_ok"] and e.get("play_status") in (None, "ok") else 1
     elif typ in ("static-recomp", "source-port", "engine-remake"):
         if rel and (rel >= 3 or stars >= 1000): play = 5
         elif rel: play = 4
@@ -94,7 +94,10 @@ def main():
     media = load("data/media.json", {})
     over = load("data/overrides.json", {"exclude": [], "set": {}})
     out, seen, dropped = [], {}, []
-    excl = {k.lower().rstrip("/") for k in over.get("exclude", [])}
+    nk = lambda u: re.sub(r"^https?://(www\.)?", "", (u or "").lower()).rstrip("/")
+    excl = {nk(k) for k in over.get("exclude", [])}
+    bstatus = load("data/browser_status.json", {})
+    oset = {nk(k): v for k, v in over.get("set", {}).items()}
     for r in recs:
         g = r.get("github") or {}
         ok = 200 <= (r.get("link_status") or 0) < 400 or (r.get("link_status") in (401, 403, 429) and not r.get("github"))  # bot-protected pages count as alive
@@ -103,7 +106,7 @@ def main():
         if re.search(r"/tree/", r["url"]): url = r["url"]  # monorepo sub-folder entries
         key = url.lower()
         if not ok: dropped.append({"title": r["title"], "url": r["url"], "status": r.get("link_status"), "reason": "dead link"}); continue
-        if key in excl or r["url"].lower().rstrip("/") in excl: continue
+        if nk(key) in excl or nk(r["url"]) in excl: continue
         srcs = r["sources"]
         stars = g.get("stars", 0) if g else 0
         only_fyi = srcs == ["recomp.fyi"]
@@ -135,14 +138,19 @@ def main():
         if not e["platform"]:
             for pat, p in PLAT_GUESS:
                 if re.search(pat, text): e["platform"] = p; break
-        e.update(over.get("set", {}).get(e["url"], {}))
-        if "title" in over.get("set", {}).get(e["url"], {}) and "game_key" not in over["set"][e["url"]]:
+        ov = oset.get(nk(e["url"])) or oset.get(nk(r["url"])) or {}
+        e.update(ov)
+        if "title" in ov and "game_key" not in ov:
             e["game_key"] = re.sub(r"[^a-z0-9]+", "", re.sub(r"\(.*?\)", "", e["title"].lower()))
+        bst = bstatus.get(e.get("play_url") or "", {})
+        e["play_status"] = None if not e.get("play_url") else ("ok" if bst.get("ok", True) else (bst.get("reason") or "not working"))
         e["ratings"], e["score"] = rate(e)
         m = media.get(e["url"], {})
         e["screenshot"] = m.get("screenshot"); e["video"] = m.get("video")
         e["screenshot_score"] = int(m.get("screenshot_score") or (3 if e["screenshot"] else 0))
         e["note"] = m.get("note")
+        pst = r.get("links_checked", {}).get("play_url", r.get("link_status") or 0)
+        e["browser_playable"] = bool(e.get("play_url")) and (200 <= pst < 400 or pst in (401, 403, 429)) and bst.get("ok", True)
         seen[key] = e; out.append(e)
     # top playable picks: pinned ranks from data/media.json first, then fill by score (one per game)
     picks, games = [], set()
@@ -155,9 +163,10 @@ def main():
     for i, e in enumerate(picks): e["top_pick"] = i + 1
     for e in out: e.setdefault("top_pick", None)
     out.sort(key=lambda e: (e["top_pick"] is None, e["top_pick"] or 0, ORDER.index(e["type"]), -e["score"], e["title"].lower()))
+    doc_browser = sum(1 for e in out if e["browser_playable"])
     counts = {t: sum(1 for e in out if e["type"] == t) for t in ORDER}
     doc = {"generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-           "total": len(out), "unique_games": len({e["game_key"] for e in out}), "counts": counts,
+           "total": len(out), "browser_playable": doc_browser, "unique_games": len({e["game_key"] for e in out}), "counts": counts,
            "topics": {k: {"name": v[0], "description": v[1]} for k, v in TOPICS.items()},
            "sources": SOURCES, "games": out}
     json.dump(doc, open(D("data/games.json"), "w"), indent=1, ensure_ascii=False)
@@ -171,6 +180,7 @@ SOURCES = [
  {"name": "recompiledgames.com", "url": "https://recompiledgames.com/"},
  {"name": "recomp.fyi (entries with >=10 stars)", "url": "https://recomp.fyi/"},
  {"name": "radek-sprta/awesome-game-remakes", "url": "https://github.com/radek-sprta/awesome-game-remakes"},
+ {"name": "X post by @RadiantOpti (browser games list)", "url": "https://x.com/RadiantOpti/status/2108068632991256995"},
  {"name": "BlueInterlude/awesome-recompilations", "url": "https://github.com/BlueInterlude/awesome-recompilations"},
 ]
 if __name__ == "__main__": main()

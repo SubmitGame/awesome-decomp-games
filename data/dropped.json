@@ -14,13 +14,13 @@
  {
   "title": "2004scape",
   "url": "https://2004scape.org",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "2009scape",
   "url": "https://2009scape.org",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -458,8 +458,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Battle Arena Toshinden",
@@ -1004,8 +1004,8 @@
  {
   "title": "Condemned 2: Bloodshot",
   "url": "https://github.com/drDOOM69GAMING/Condemned2Recomp-Linux",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Conduit 2",
@@ -2552,7 +2552,7 @@
  {
   "title": "Hedgewars",
   "url": "http://webwars.link",
-  "status": 400,
+  "status": 0,
   "reason": "dead link"
  },
  {
@@ -4062,12 +4062,6 @@
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
-  "title": "OpenReliant",
-  "url": "https://github.com/OpenReliant/openreliant",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
- },
- {
   "title": "OpenRSC",
   "url": "https://gitlab.com/open-runescape-classic/core",
   "status": 200,
@@ -4466,7 +4460,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -5398,6 +5392,12 @@
   "url": "https://github.com/alexbeavs-ps1-ports/spider-man-2-enter-electro-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "SpongeBob's Truth or Square",
+  "url": "https://github.com/spongeis5/ToS-Decomp",
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "SpongeBob's Truth or Square",
@@ -6480,6 +6480,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Tomb Raider (OpenLara)",
+  "url": "http://xproger.info/projects/OpenLara",
+  "status": 0,
+  "reason": "dead link"
+ },
+ {
   "title": "Tomba! 2: The Evil Swine Return",
   "url": "https://github.com/erneztox/tomba2-decomp",
   "status": 200,
@@ -6730,12 +6736,6 @@
   "url": "https://github.com/NJH-1001/UmJamLamRecomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Underworld Exhumed",
-  "url": "https://github.com/abedegno/underworld-exhumed",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "Underworld Revisited",

@@ -447,5 +447,338 @@
   ],
   "checked": true,
   "screenshot_reviewed": true
+ },
+ "https://vel.gg/bo1z": {
+  "screenshot": "screenshots/browser-call-of-duty-black-ops-zombies.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/black-ops-zombies-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://ovz-game-production.up.railway.app": {
+  "screenshot": "screenshots/browser-call-of-duty-modern-warfare-2.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/modern-warfare-2-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://cheese-cube.pages.dev": {
+  "screenshot": "screenshots/browser-cheese-cube-black-ops-iii-custom-map.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/cheese-cube-black-ops-3-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://generals.wasm.ltd": {
+  "screenshot": "screenshots/browser-command-conquer-generals-zero-hour.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/generalsx-og.jpg",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://chronodivide.com": {
+  "screenshot": "screenshots/browser-command-conquer-red-alert-2.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/chrono-divide-og.jpg",
+  "screenshot_size": [
+   1200,
+   675
+  ],
+  "screenshot_score": 5
+ },
+ "https://csjs.live": {
+  "screenshot": "screenshots/browser-counter-strike-1-6.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/counter-strike-1-6-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://bunnyhop.lol": {
+  "screenshot": "screenshots/browser-counter-strike-source-bunnyhop-bunnyhop-lol.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/bunnyhop-lol-home.jpg",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://surfd.net": {
+  "screenshot": "screenshots/browser-counter-strike-source-surf-surfd.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/surfd-cs-surf-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://ctr.cmzi.uk": {
+  "screenshot": "screenshots/browser-crash-team-racing-turbocharged.jpg",
+  "screenshot_source": "https://ctr.cmzi.uk/assets/social-card.jpg",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://johnimril.github.io/diablo_web": {
+  "screenshot": "screenshots/browser-diablo.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/diablo-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://silentspacemarine.com": {
+  "screenshot": "screenshots/browser-doom-multiplayer-silent-space-marine.jpg",
+  "screenshot_source": "https://silentspacemarine.com/share.png",
+  "screenshot_size": [
+   800,
+   458
+  ],
+  "screenshot_score": 4
+ },
+ "https://shmargus.github.io/GSRecomp": {
+  "screenshot": "screenshots/browser-golden-sun-recompilation.jpg",
+  "screenshot_source": "https://shmargus.github.io/GSRecomp/logo.webp",
+  "screenshot_size": [
+   1280,
+   640
+  ],
+  "screenshot_score": 5
+ },
+ "https://joncodeofficial.github.io/gta-vice-city-wasm": {
+  "screenshot": "screenshots/browser-grand-theft-auto-vice-city.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/gta-vice-city-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://pixelsuft.github.io/hl": {
+  "screenshot": "screenshots/browser-half-life-pixelsuft.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/half-life-pixelsuft-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://x8bitrain.github.io/webXash": {
+  "screenshot": "screenshots/browser-half-life-and-counter-strike-1-6-webxash.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/half-life-counter-strike-webxash-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://mitchellhynes.com/halo/halo.html": {
+  "screenshot": "screenshots/browser-halo-combat-evolved.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/halo-combat-evolved-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://hcemobile.com": {
+  "screenshot": "screenshots/browser-halo-combat-evolved-mobile-hcemobile.jpg",
+  "screenshot_source": "live capture of https://hcemobile.com/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://kino-der-toten.pages.dev": {
+  "screenshot": "screenshots/browser-kino-der-toten-zombies.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/kino-der-toten-zombies-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://moon-zombies.pages.dev": {
+  "screenshot": "screenshots/browser-moon-zombies.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/moon-zombies-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://www.netquake.io": {
+  "screenshot": "screenshots/browser-netquake-io.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/netquake-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://pepsiman.ol.mr": {
+  "screenshot": "screenshots/browser-pepsiman-recompiled.jpg",
+  "screenshot_source": "live capture of https://pepsiman.ol.mr/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://pes6.optijuegos.net": {
+  "screenshot": "screenshots/browser-pro-evolution-soccer-6.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/pro-evolution-soccer-6-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://q2.pieter.com": {
+  "screenshot": "screenshots/browser-quake-ii.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/quake-ii-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://q3.pieter.com": {
+  "screenshot": "screenshots/browser-quake-iii-arena-q3-pieter-com.jpg",
+  "screenshot_source": "https://q3.pieter.com/assets/og.jpg",
+  "screenshot_size": [
+   1280,
+   833
+  ],
+  "screenshot_score": 5
+ },
+ "https://q1.pieter.com": {
+  "screenshot": "screenshots/browser-quakeworld.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/quakeworld-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://re-rac.github.io": {
+  "screenshot": "screenshots/browser-ratchet-clank-pc-port.jpg",
+  "screenshot_source": "https://re-rac.github.io/og.png",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://rtcw.pieter.com": {
+  "screenshot": "screenshots/browser-return-to-castle-wolfenstein.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/return-to-castle-wolfenstein-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://skate.aaddpp.lol": {
+  "screenshot": "screenshots/browser-skate-3.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/skate-3-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://foxhollow.dev": {
+  "screenshot": "screenshots/browser-star-fox-adventures.jpg",
+  "screenshot_source": "https://foxhollow.dev/og.png",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://jk.q3js.com": {
+  "screenshot": "screenshots/browser-star-wars-jedi-knight-jedi-academy.jpg",
+  "screenshot_source": "live capture of https://jk.q3js.com",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://olivers.tools/play": {
+  "screenshot": "screenshots/browser-super-mario-64-multiplayer.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/super-mario-64-multiplayer-recompiled.jpg",
+  "screenshot_size": [
+   1200,
+   857
+  ],
+  "screenshot_score": 5
+ },
+ "https://shar-wasm.cjoseph.workers.dev/?skipmovie": {
+  "screenshot": "screenshots/browser-the-simpsons-hit-run.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/the-simpsons-hit-and-run-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://ut.pieter.com": {
+  "screenshot": "screenshots/browser-urban-terror-listed-as-unreal-tournament.jpg",
+  "screenshot_source": "https://ut.pieter.com/assets/og.jpg?v=1",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://vf1-recomp.pages.dev": {
+  "screenshot": "screenshots/browser-virtua-fighter-arcade-recompilation.jpg",
+  "screenshot_source": "https://vf1-recomp.pages.dev/media/og.jpg",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 5
+ },
+ "https://wadcmd.com": {
+  "screenshot": "screenshots/browser-wadcmd-doom-in-the-browser.jpg",
+  "screenshot_source": "https://wadcmd.com/assets/img/og.png",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://wz2100.net/news/warzone-2100-web-edition": {
+  "screenshot": "screenshots/browser-warzone-2100-web-edition.jpg",
+  "screenshot_source": "https://wz2100.net/img/wz2100-open-graph-template.png",
+  "screenshot_size": [
+   1280,
+   640
+  ],
+  "screenshot_score": 5
+ },
+ "https://wasmarcade.com": {
+  "screenshot": "screenshots/browser-wasm-arcade-gta-minecraft-web-ports.jpg",
+  "screenshot_source": "https://wasmarcade.com/og/site-v2.png",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
  }
 }

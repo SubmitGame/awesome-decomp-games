@@ -1,1 +1,29 @@
-[]
+[
+ {
+  "title": "Halo: Combat Evolved Mobile (HCEMobile)",
+  "url": "https://hcemobile.com/",
+  "play_url": "https://hcemobile.com/",
+  "platform": "Xbox",
+  "type": "browser",
+  "source": "x:2108068632991256995",
+  "description": "Halo CE as an installable web app for iPhone/Android; play in the browser or add to home screen."
+ },
+ {
+  "title": "Quake III Arena (q3.pieter.com)",
+  "url": "https://q3.pieter.com",
+  "play_url": "https://q3.pieter.com",
+  "platform": "PC",
+  "type": "browser",
+  "source": "x:2108068632991256995",
+  "description": "Quake III multiplayer in the browser (unofficial, non-commercial)."
+ },
+ {
+  "title": "WASM Arcade (GTA / Minecraft web ports)",
+  "url": "https://wasmarcade.com/",
+  "play_url": "https://wasmarcade.com/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "x:2108068632991256995",
+  "description": "Collection of WebAssembly game ports incl. GTA and Minecraft builds."
+ }
+]

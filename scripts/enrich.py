@@ -61,7 +61,7 @@ def check_url(u):
     if (st == 0 or st >= 400) and u.startswith("http://"):
         u2 = "https://" + u[len("http://"):]
         st2 = _check(u2)
-        if 200 <= st2 < 400: return st2, u2
+        if st2: return st2, u2
     return st, u
 
 def _check(u):
