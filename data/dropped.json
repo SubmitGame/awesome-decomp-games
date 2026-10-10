@@ -786,12 +786,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Castlevania Chronicles",
-  "url": "https://github.com/Spicywonda/castlevania-chronicles-recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Castlevania: Aria of Sorrow",
   "url": "https://github.com/Zaxaerith/CastlevaniaAriaOfSorrowRecomp",
   "status": 200,
@@ -940,12 +934,6 @@
   "url": "https://github.com/Pendrokar/civizard_decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Claude of Duty: Vibe Slops II",
-  "url": "http://vibeslops.luckeysystems.com",
-  "status": 0,
-  "reason": "dead link"
  },
  {
   "title": "Coaster",
@@ -3708,6 +3696,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Miki's World + Miki's World 2",
+  "url": "https://github.com/yanm1103/mikisworld",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Mikie",
   "url": "https://github.com/vs-sr-dev/pc-mikie",
   "status": 200,
@@ -3880,12 +3874,6 @@
   "url": "https://github.com/fluvian/mnsg",
   "status": 404,
   "reason": "dead link"
- },
- {
-  "title": "N64 Classic: Rush 2",
-  "url": "https://github.com/bryantmh/rush2recompiled",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Naruto Shippudden: Ultimate Ninja 5",
@@ -4178,12 +4166,6 @@
  {
   "title": "Paper Mario: The Thousand-Year Door",
   "url": "https://github.com/Rainchus/ttyd-decomp-us",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Parasite Eve",
-  "url": "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -6684,6 +6666,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Turok: Rage Wars",
+  "url": "https://github.com/melalawi/ragewars-decomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Twin Cobra",
   "url": "https://github.com/crapola/twin_cobra_disasm",
   "status": 200,
@@ -6926,6 +6914,12 @@
  {
   "title": "War in Middle Earth",
   "url": "https://github.com/antxiko/WarinMiddleEarth-MSX-disassembly",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "War of the Monsters",
+  "url": "https://github.com/yanm1103/War_of_the_Monsters_recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },

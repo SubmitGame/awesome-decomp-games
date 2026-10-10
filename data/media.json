@@ -906,5 +906,95 @@
    630
   ],
   "screenshot_score": 5
+ },
+ "https://crashbash.app": {
+  "screenshot": "screenshots/browser-crash-bash-online.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/crash-bash-online-card.jpg",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://fortniteog.lol": {
+  "screenshot": "screenshots/browser-fortnite-og-fortniteog-lol.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/fortnite-og-banner.jpg",
+  "screenshot_size": [
+   1200,
+   400
+  ],
+  "screenshot_score": 2
+ },
+ "https://wasmarcade.com/gta3": {
+  "screenshot": "screenshots/browser-grand-theft-auto-iii.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/gta-3-recompiled.jpg",
+  "screenshot_size": [
+   568,
+   406
+  ],
+  "screenshot_score": 3
+ },
+ "https://web.archive.org/web/20261006055917/https://playgta5.com": {
+  "screenshot": "screenshots/browser-grand-theft-auto-v.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/gta-5-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://isle.pizza": {
+  "screenshot": "screenshots/browser-lego-island.jpg",
+  "screenshot_source": "live capture of https://isle.pizza/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://wasmarcade.com/minecraft": {
+  "screenshot": "screenshots/browser-minecraft-1-8-8-eaglercraftx.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/minecraft-1-8-8-recompiled.jpg",
+  "screenshot_size": [
+   935,
+   668
+  ],
+  "screenshot_score": 4
+ },
+ "https://zombies.bitcoinsapi.com": {
+  "screenshot": "screenshots/browser-nacht-der-untoten.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/nacht-der-untoten-card.jpg",
+  "screenshot_size": [
+   1200,
+   600
+  ],
+  "screenshot_score": 5
+ },
+ "https://runescapeclassic.gold": {
+  "screenshot": "screenshots/browser-runescape-classic.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/runescape-classic-recompiled.jpg",
+  "screenshot_size": [
+   1200,
+   857
+  ],
+  "screenshot_score": 5
+ },
+ "https://smz.fun": {
+  "screenshot": "screenshots/browser-super-mario-zombies.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/super-mario-zombies-card.jpg",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://github.com/SubmitGame/awesome-decomp-games": {
+  "screenshot": "screenshots/browser-submitgame-awesome-decomp-games.jpg",
+  "screenshot_source": "https://opengraph.githubassets.com/d5e5442d362c0153d08c50747ec5db0ab3c9a99fd9d19b6ca20262d98b8c352a/SubmitGame/awesome-decomp-games",
+  "screenshot_size": [
+   1200,
+   600
+  ],
+  "screenshot_score": 5
  }
 }

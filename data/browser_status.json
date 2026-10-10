@@ -3,7 +3,7 @@
   "ok": true,
   "title": "bunnyhop.lol · Counter-Strike: Source bunnyhop in your browser",
   "reason": null,
-  "checked": "2026-10-09T23:33:55Z"
+  "checked": "2026-10-10T09:54:41Z"
  },
  "https://cheese-cube.pages.dev": {
   "ok": false,
@@ -15,43 +15,43 @@
   "ok": true,
   "title": "Just a moment...",
   "reason": null,
-  "checked": "2026-10-09T23:34:03Z"
+  "checked": "2026-10-10T09:54:49Z"
  },
  "https://csjs.live": {
   "ok": true,
   "title": "Play Counter-Strike 1.6 in Your Browser | CSJS",
   "reason": null,
-  "checked": "2026-10-09T23:34:11Z"
+  "checked": "2026-10-10T09:55:04Z"
  },
  "https://ctr.cmzi.uk/": {
   "ok": true,
   "title": "Crash Team Racing: Turbocharged – PC port for Windows and Linux",
   "reason": null,
-  "checked": "2026-10-09T23:34:19Z"
+  "checked": "2026-10-10T09:55:13Z"
  },
  "https://foxhollow.dev/": {
   "ok": true,
   "title": "Foxhollow — Ready to save Dinosaur Planet?",
   "reason": null,
-  "checked": "2026-10-09T23:34:27Z"
+  "checked": "2026-10-10T09:55:27Z"
  },
  "https://generals.wasm.ltd": {
   "ok": true,
   "title": "GeneralsX — a decompilation running in your browser — wasm.ltd",
   "reason": null,
-  "checked": "2026-10-09T23:34:34Z"
+  "checked": "2026-10-10T09:55:35Z"
  },
  "https://hcemobile.com/": {
   "ok": true,
   "title": "HCEMobile - Halo: Combat Evolved Mobile",
   "reason": null,
-  "checked": "2026-10-09T23:34:42Z"
+  "checked": "2026-10-10T09:55:51Z"
  },
  "https://jk.q3js.com": {
   "ok": true,
   "title": "Just a moment...",
   "reason": null,
-  "checked": "2026-10-09T23:34:49Z"
+  "checked": "2026-10-10T09:56:06Z"
  },
  "https://johnimril.github.io/diablo_web/": {
   "ok": true,
@@ -63,7 +63,7 @@
   "ok": true,
   "title": "GTA: Vice City — WASM Port",
   "reason": null,
-  "checked": "2026-10-09T23:34:56Z"
+  "checked": "2026-10-10T09:56:13Z"
  },
  "https://kino-der-toten.pages.dev": {
   "ok": false,
@@ -75,7 +75,7 @@
   "ok": true,
   "title": "Halo: Combat Evolved",
   "reason": null,
-  "checked": "2026-10-09T23:35:04Z"
+  "checked": "2026-10-10T09:56:21Z"
  },
  "https://moon-zombies.pages.dev": {
   "ok": false,
@@ -87,19 +87,19 @@
   "ok": true,
   "title": "Just a moment...",
   "reason": null,
-  "checked": "2026-10-09T23:35:11Z"
+  "checked": "2026-10-10T09:56:28Z"
  },
  "https://ovz-game-production.up.railway.app": {
   "ok": true,
   "title": "Checking your browser…",
   "reason": null,
-  "checked": "2026-10-09T23:35:18Z"
+  "checked": "2026-10-10T09:56:35Z"
  },
  "https://pepsiman.ol.mr/": {
   "ok": false,
   "title": "CNAME Cross-User Banned | Cloudflare",
   "reason": "CNAME Cross-User",
-  "checked": "2026-10-09T23:35:25Z"
+  "checked": "2026-10-10T09:56:43Z"
  },
  "https://pes6.optijuegos.net": {
   "ok": true,
@@ -129,19 +129,19 @@
   "ok": true,
   "title": "Play Quake III Online - q3.pieter.com (Non-commercial and unofficial)",
   "reason": null,
-  "checked": "2026-10-09T23:35:37Z"
+  "checked": "2026-10-10T09:56:51Z"
  },
  "https://q3js.com/": {
   "ok": true,
   "title": "Just a moment...",
   "reason": null,
-  "checked": "2026-10-09T23:35:44Z"
+  "checked": "2026-10-10T09:56:59Z"
  },
  "https://re-rac.github.io/": {
   "ok": true,
   "title": "ReRAC · Ratchet & Clank, rebuilt for PC",
   "reason": null,
-  "checked": "2026-10-09T23:35:52Z"
+  "checked": "2026-10-10T09:57:06Z"
  },
  "https://rtcw.pieter.com": {
   "ok": true,
@@ -159,13 +159,13 @@
   "ok": true,
   "title": "Golden Sun Recompiled",
   "reason": null,
-  "checked": "2026-10-09T23:35:59Z"
+  "checked": "2026-10-10T09:57:21Z"
  },
  "https://silentspacemarine.com/": {
   "ok": true,
   "title": "WebSockets Wasm Doom",
   "reason": null,
-  "checked": "2026-10-09T23:36:07Z"
+  "checked": "2026-10-10T09:57:28Z"
  },
  "https://skate.aaddpp.lol": {
   "ok": true,
@@ -195,7 +195,7 @@
   "ok": true,
   "title": "Virtua Fighter Recomp",
   "reason": null,
-  "checked": "2026-10-09T23:36:14Z"
+  "checked": "2026-10-10T09:57:43Z"
  },
  "https://vibeslops.luckeysystems.com": {
   "error": "Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://vibeslops.luckeysystems.com/\nCall log:\n  - navigating to \"",
@@ -207,19 +207,19 @@
   "ok": true,
   "title": "WAD Commander v2.0 · Launching November 2, 2026",
   "reason": null,
-  "checked": "2026-10-09T23:36:21Z"
+  "checked": "2026-10-10T09:57:51Z"
  },
  "https://wasmarcade.com/": {
   "ok": true,
   "title": "WASM Arcade: GTA, Minecraft, Arcade & Flash Games Online",
   "reason": null,
-  "checked": "2026-10-09T23:36:29Z"
+  "checked": "2026-10-10T09:57:59Z"
  },
  "https://www.netquake.io/": {
   "ok": true,
   "title": "NetQuake.io — Quake in Your Browser",
   "reason": null,
-  "checked": "2026-10-09T23:36:36Z"
+  "checked": "2026-10-10T09:58:30Z"
  },
  "https://wz2100.net/news/warzone-2100-web-edition/": {
   "ok": true,
@@ -237,78 +237,138 @@
   "ok": true,
   "title": "Diablo Web - Original Diablo in Your Browser",
   "reason": null,
-  "checked": "2026-10-09T23:32:15Z"
+  "checked": "2026-10-10T09:53:00Z"
  },
  "http://pes6.optijuegos.net": {
   "ok": true,
   "title": "PES 6 Web Online Port",
   "reason": null,
-  "checked": "2026-10-09T23:32:23Z"
+  "checked": "2026-10-10T09:53:08Z"
  },
  "http://pixelsuft.github.io/hl/": {
   "ok": true,
   "title": "Pixelsuft hl",
   "reason": null,
-  "checked": "2026-10-09T23:32:30Z"
+  "checked": "2026-10-10T09:53:15Z"
  },
  "http://q1.pieter.com": {
   "ok": true,
   "title": "Play QuakeWorld Multiplayer Online - q1.pieter.com (Non-commercial and unofficial)",
   "reason": null,
-  "checked": "2026-10-09T23:32:38Z"
+  "checked": "2026-10-10T09:53:23Z"
  },
  "http://q2.pieter.com": {
   "ok": true,
   "title": "Play Quake II Multiplayer Online - q2.pieter.com (Non-commercial and unofficial)",
   "reason": null,
-  "checked": "2026-10-09T23:32:46Z"
+  "checked": "2026-10-10T09:53:30Z"
  },
  "http://rtcw.pieter.com": {
   "ok": true,
   "title": "Play Return to Castle Wolfenstein Multiplayer Online - rtcw.pieter.com (Non-commercial and unofficial)",
   "reason": null,
-  "checked": "2026-10-09T23:32:54Z"
+  "checked": "2026-10-10T09:53:38Z"
  },
  "http://shar-wasm.cjoseph.workers.dev/?skipmovie": {
   "ok": true,
   "title": "The Simpsons: Hit & Run - WASM",
   "reason": null,
-  "checked": "2026-10-09T23:33:01Z"
+  "checked": "2026-10-10T09:53:46Z"
  },
  "http://skate.aaddpp.lol": {
   "ok": true,
   "title": "skate. 3 — Fan Game",
   "reason": null,
-  "checked": "2026-10-09T23:33:09Z"
+  "checked": "2026-10-10T09:53:53Z"
  },
  "http://surfd.net": {
   "ok": true,
   "title": "Surfd — Classic surf",
   "reason": null,
-  "checked": "2026-10-09T23:33:16Z"
+  "checked": "2026-10-10T09:54:01Z"
  },
  "http://ut.pieter.com": {
   "ok": true,
   "title": "Play Urban Terror Multiplayer Online - ut.pieter.com (Non-commercial and unofficial)",
   "reason": null,
-  "checked": "2026-10-09T23:33:24Z"
+  "checked": "2026-10-10T09:54:09Z"
  },
  "http://vel.gg/bo1z": {
   "ok": true,
   "title": "Zombies",
   "reason": null,
-  "checked": "2026-10-09T23:33:31Z"
+  "checked": "2026-10-10T09:54:16Z"
  },
  "http://x8bitrain.github.io/webXash/": {
   "ok": true,
   "title": "WebXash",
   "reason": null,
-  "checked": "2026-10-09T23:33:39Z"
+  "checked": "2026-10-10T09:54:23Z"
  },
  "http://xproger.info/projects/OpenLara/": {
   "ok": true,
   "title": "OpenLara",
   "reason": null,
-  "checked": "2026-10-09T23:33:46Z"
+  "checked": "2026-10-10T09:54:31Z"
+ },
+ "https://crashbash.app/": {
+  "ok": true,
+  "title": "Crash Bash Online Multiplayer With Friends | PS1 Game",
+  "reason": null,
+  "checked": "2026-10-10T09:54:56Z"
+ },
+ "https://fortniteog.lol/": {
+  "ok": true,
+  "title": "Drop into OG",
+  "reason": null,
+  "checked": "2026-10-10T09:55:20Z"
+ },
+ "https://github.com/SubmitGame/awesome-decomp-games#play-in-your-browser": {
+  "ok": true,
+  "title": "GitHub - SubmitGame/awesome-decomp-games: Rated, auto-refreshed list of decompiled, recompiled & reverse-engineered game",
+  "reason": null,
+  "checked": "2026-10-10T09:55:44Z"
+ },
+ "https://isle.pizza/": {
+  "ok": true,
+  "title": "LEGO® Island",
+  "reason": null,
+  "checked": "2026-10-10T09:55:59Z"
+ },
+ "https://runescapeclassic.gold/": {
+  "ok": true,
+  "title": "RuneScape Classic — Play Free in Your Browser",
+  "reason": null,
+  "checked": "2026-10-10T09:57:14Z"
+ },
+ "https://smz.fun/": {
+  "ok": true,
+  "title": "Super Mario Zombies",
+  "reason": null,
+  "checked": "2026-10-10T09:57:36Z"
+ },
+ "https://wasmarcade.com/gta3": {
+  "ok": true,
+  "title": "Play GTA III in Your Browser | WASM Arcade",
+  "reason": null,
+  "checked": "2026-10-10T09:58:06Z"
+ },
+ "https://wasmarcade.com/minecraft": {
+  "ok": true,
+  "title": "Play Minecraft 1.8.8 in Your Browser | WASM Arcade",
+  "reason": null,
+  "checked": "2026-10-10T09:58:14Z"
+ },
+ "https://web.archive.org/web/20261006055917/https://playgta5.com/": {
+  "ok": true,
+  "title": "game",
+  "reason": null,
+  "checked": "2026-10-10T09:58:22Z"
+ },
+ "https://zombies.bitcoinsapi.com/": {
+  "ok": true,
+  "title": "Nacht der Untoten · Browser edition",
+  "reason": null,
+  "checked": "2026-10-10T09:58:37Z"
  }
 }
