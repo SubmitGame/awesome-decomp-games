@@ -25,5 +25,103 @@
   "type": "browser",
   "source": "x:2108068632991256995",
   "description": "Collection of WebAssembly game ports incl. GTA and Minecraft builds."
+ },
+ {
+  "title": "Test Drive",
+  "url": "https://github.com/kylofon/test-drive-sdl3",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Faithful C/SDL3 port of Test Drive (1987, DOS/EGA), reverse-engineered from the original; needs your own game files."
+ },
+ {
+  "title": "Test Drive Enhanced",
+  "url": "https://github.com/kylofon/testdrive-enhanced",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Enhanced Test Drive (1987) on SDL3: higher-resolution road view, longer draw distance, 60 fps; needs your own game files."
+ },
+ {
+  "title": "Test Drive II: The Duel",
+  "url": "https://github.com/kylofon/test-drive-2-sdl3",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Faithful C/SDL3 port of Test Drive II: The Duel (1989, DOS/EGA), reverse-engineered from the original; needs your own game files."
+ },
+ {
+  "title": "Test Drive II: The Duel Enhanced",
+  "url": "https://github.com/kylofon/testdrive2-enhanced",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Enhanced Test Drive II on SDL3: road view at 4x resolution, 60 fps, 180-unit draw distance; needs your own game files."
+ },
+ {
+  "title": "Test Drive III: The Passion",
+  "url": "https://github.com/kylofon/test-drive-3-sdl3",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Faithful C/SDL3 port of Test Drive III: The Passion (1990, DOS/VGA), reverse-engineered from the original; needs your own game files."
+ },
+ {
+  "title": "Test Drive III: The Passion Enhanced",
+  "url": "https://github.com/kylofon/testdrive3-enhanced",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Enhanced Test Drive III on SDL3: smooth high-resolution 3D view, longer draw distance, smooth steering; needs your own game files."
+ },
+ {
+  "title": "Street Rod",
+  "url": "https://github.com/kylofon/street-rod-sdl3",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Faithful C/SDL3 port of Street Rod (1989, DOS/VGA), reverse-engineered from the original; needs your own game files."
+ },
+ {
+  "title": "Street Rod Enhanced",
+  "url": "https://github.com/kylofon/streetrod-enhanced",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Enhanced Street Rod (1989) on SDL3 with a smooth, high-resolution road view; needs your own game files."
+ },
+ {
+  "title": "Street Rod 2: The Next Generation",
+  "url": "https://github.com/kylofon/street-rod-2-sdl3",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Faithful C/SDL3 port of Street Rod 2 (1991, DOS), reverse-engineered from the original; needs your own game files."
+ },
+ {
+  "title": "Aces of the Pacific",
+  "url": "https://github.com/kylofon/aces-of-the-pacific-sdl3",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Faithful C/SDL3 port of Aces of the Pacific (1992, DOS/VGA), reverse-engineered from the original; needs your own game files."
+ },
+ {
+  "title": "Aces of the Pacific Enhanced",
+  "url": "https://github.com/kylofon/acesofthepacific-enhanced",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Enhanced Aces of the Pacific on SDL3: smooth high-resolution 3D view, longer view distance, distance haze, key bindings."
+ },
+ {
+  "title": "JetStrike",
+  "url": "https://github.com/kylofon/jetstrike-sdl3",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Faithful C/SDL3 port of JetStrike (1994, DOS CD-ROM), reverse-engineered from the original; needs your own game files."
+ },
+ {
+  "title": "JetStrike Enhanced",
+  "url": "https://github.com/kylofon/jetstrike-enhanced",
+  "platform": "DOS",
+  "type": "port",
+  "description": "Enhanced JetStrike on SDL3 with a wider 640x360 mission view; needs your own copy of the DOS CD-ROM version."
+ },
+ {
+  "title": "Microsoft Flight Simulator 1.05",
+  "url": "https://github.com/kylofon/fs1-sdl3-port",
+  "platform": "PC",
+  "type": "port",
+  "description": "C/SDL3 port of Microsoft Flight Simulator 1.05 (IBM PC booter, 1982), every routine reimplemented; needs your own disk image."
  }
 ]
