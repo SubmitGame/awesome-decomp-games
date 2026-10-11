@@ -558,5 +558,13 @@
   "description": "Clean-room Rust reconstruction of Zelda II; plays in the browser with your own Zelda II (USA) ROM.",
   "play_url": "https://z2rs.com/",
   "needs_assets": "byo"
+ },
+ {
+  "title": "Cookie's Bustle",
+  "url": "https://cookiesfreedom.com/",
+  "play_url": "https://cookiesfreedom.com/",
+  "platform": "PC",
+  "type": "browser",
+  "description": "RODIK's 1999 point-and-click adventure, playable in your browser, with an artwork gallery and cutscene player."
  }
 ]
