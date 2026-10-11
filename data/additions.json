@@ -282,5 +282,19 @@
   "description": "Minecraft clients can connect to a Hytale server without a client mod. HyCraft converts chunks and biomes, synchronises entities and inventory, and translates block interaction and combat.",
   "host": "Hytale server",
   "guest": "Minecraft: Java Edition 1.21.11"
+ },
+ {
+  "title": "Skate",
+  "url": "https://github.com/cookingwithsimon/Skate1Recompiled",
+  "platform": "Xbox 360",
+  "type": "recomp",
+  "description": "Static recompilation of skate (2007, Xbox 360) to native Windows via the ReXGlue SDK. Career, Freeskate, videos and audio work at 60 FPS. Needs your own Xbox 360 copy; no game files included."
+ },
+ {
+  "title": "Skate 2",
+  "url": "https://github.com/cookingwithsimon/Skate2Recompiled",
+  "platform": "Xbox 360",
+  "type": "recomp",
+  "description": "Static recompilation of Skate 2 (Xbox 360) to native Windows via the ReXGlue SDK. Boots through the menus into Freeskate with working mission triggers; early. Needs your own Xbox 360 copy; no game files included."
  }
 ]
