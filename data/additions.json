@@ -568,5 +568,14 @@
   "source": "manual",
   "needs_assets": "instant",
   "description": "Black Ops 'Moon' zombies map running in the browser (part of the vel.gg Black Ops zombies port; ~400 MB download). Replaces the hijacked moon-zombies.pages.dev."
+ },
+ {
+  "title": "Freedom Fighters (ReFreedomFighters)",
+  "url": "https://github.com/kaustubhxd/ReFreedomFighters",
+  "platform": "PC",
+  "type": "decomp",
+  "source": "manual",
+  "description": "Partial decompilation of Freedom Fighters (2003, IO Interactive, PC): 1,792 verified C++ functions, plus format decoders and tooling. Needs your own copy of the game; no game data included.",
+  "ai_flag": true
  }
 ]
