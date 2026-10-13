@@ -568,5 +568,13 @@
   "source": "manual",
   "needs_assets": "instant",
   "description": "Black Ops 'Moon' zombies map running in the browser (part of the vel.gg Black Ops zombies port; ~400 MB download). Replaces the hijacked moon-zombies.pages.dev."
+ },
+ {
+  "title": "Castle Crashers",
+  "url": "https://github.com/myuu-151/Castle-Crashers-Recomp",
+  "platform": "PC",
+  "type": "remake",
+  "description": "Native reimplementation of the engine of Castle Crashers (2012 PC Steam build), running the game's own scripts from your copy; also builds for GameCube (Castle-Crashers-GC).",
+  "needs_assets": "byo"
  }
 ]
