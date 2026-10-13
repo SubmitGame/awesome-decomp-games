@@ -1079,5 +1079,18 @@
   "screenshot_score": 5,
   "locked": true,
   "screenshot_kind": "gameplay"
+ },
+ "https://github.com/jlagedo/dreams-to-reality-re": {
+  "screenshot": "screenshots/jlagedo-dreams-to-reality-re.jpg",
+  "screenshot_score": 5,
+  "screenshot_source": "https://raw.githubusercontent.com/jlagedo/dreams-to-reality-re/main/docs/demo.jpg",
+  "screenshot_size": [
+   1280,
+   676
+  ],
+  "checked": true,
+  "locked": true,
+  "screenshot_reviewed": true,
+  "screenshot_kind": "gameplay"
  }
 }

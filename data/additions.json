@@ -568,5 +568,14 @@
   "source": "manual",
   "needs_assets": "instant",
   "description": "Black Ops 'Moon' zombies map running in the browser (part of the vel.gg Black Ops zombies port; ~400 MB download). Replaces the hijacked moon-zombies.pages.dev."
+ },
+ {
+  "title": "Dreams to Reality",
+  "url": "https://github.com/jlagedo/dreams-to-reality-re",
+  "platform": "PC",
+  "type": "recomp",
+  "source": "manual",
+  "needs_assets": "byo",
+  "description": "Static recompilation of Cryo's 1997 Windows game (GDIDREAM.EXE) to native code, with a GPU renderer, SDL3 host, disc-image launcher and Cryo's level editor restored. Needs your own discs."
  }
 ]
