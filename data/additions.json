@@ -687,5 +687,14 @@
   "type": "browser",
   "source": "manual",
   "description": "Diablo (DevilutionX-based) compiled to WebAssembly. Plays the free shareware demo instantly; load your own DIABDAT.MPQ for the full game."
+ },
+ {
+  "title": "Dreams to Reality",
+  "url": "https://github.com/jlagedo/dreams-to-reality-re",
+  "platform": "PC",
+  "type": "recomp",
+  "source": "manual",
+  "needs_assets": "byo",
+  "description": "Static recompilation of Cryo's 1997 Windows game (GDIDREAM.EXE) to native code, with a GPU renderer, SDL3 host, disc-image launcher and Cryo's level editor restored. Needs your own discs."
  }
 ]
