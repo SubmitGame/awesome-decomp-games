@@ -6,6 +6,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 scripts/fetch_sources.sh
 python3 scripts/fetch_quiver.py || echo "quiver fetch failed (non-fatal, keeps previous raw/quiver.json)"
+python3 scripts/fetch_unbaked.py || echo "unbaked fetch failed (non-fatal, keeps previous raw/unbaked.json)"
+python3 scripts/fetch_portsdr.py || echo "portsdr fetch failed (non-fatal, keeps previous raw/portsdr.json)"
 python3 scripts/collect.py
 python3 scripts/enrich.py
 python3 scripts/build.py

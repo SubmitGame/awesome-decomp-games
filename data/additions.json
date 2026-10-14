@@ -570,6 +570,125 @@
   "description": "Black Ops 'Moon' zombies map running in the browser (part of the vel.gg Black Ops zombies port; ~400 MB download). Replaces the hijacked moon-zombies.pages.dev."
  },
  {
+  "title": "Skate 2 (PC port, christianortel)",
+  "url": "https://github.com/christianortel/skate2-recompile-pc",
+  "platform": "Xbox 360",
+  "type": "recomp",
+  "source": "reddit:r/recomps",
+  "description": "Windows PC port of Skate 2 built with ReXGlue; controller support, quality options, unlocked FPS. Original game files required."
+ },
+ {
+  "title": "Resident Evil 3: Nemesis (Project RE: Visited)",
+  "url": "https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3",
+  "platform": "PS1",
+  "type": "recomp",
+  "source": "reddit:r/recomps",
+  "description": "Static recompilation and native PC port of Resident Evil 3: Nemesis (PS1)."
+ },
+ {
+  "title": "Virtua Fighter 2 (arcade recompilation)",
+  "url": "https://github.com/mr-finster/vf2-recomp",
+  "platform": "Arcade",
+  "type": "recomp",
+  "source": "reddit:r/recomps",
+  "description": "Sega Model 2 i960 program recompiled to native code for Mac, Windows and Steam Deck; widescreen, 120 fps. Bring your own vf2.zip. AI-assisted.",
+  "ai_flag": true
+ },
+ {
+  "title": "Def Jam Vendetta",
+  "url": "https://github.com/jcsix694/def-jam-vendetta-recomp",
+  "platform": "PS2",
+  "type": "recomp",
+  "source": "reddit:r/recomps",
+  "description": "Def Jam Vendetta recompiled for PC with PS2Recomp; source only, build from your own disc."
+ },
+ {
+  "title": "NBA Street V3",
+  "url": "https://github.com/recomp-code/street-recomp-v3",
+  "platform": "GameCube",
+  "type": "recomp",
+  "source": "reddit:r/recomps",
+  "description": "Static recompilation of NBA Street V3 for PC."
+ },
+ {
+  "title": "Crackdown (Unowa001 recomp)",
+  "url": "https://github.com/Unowa001/crackdown-recomp",
+  "platform": "Xbox 360",
+  "type": "recomp",
+  "source": "reddit:r/recomps",
+  "description": "Unofficial native PC port of Crackdown via static recompilation; beta releases, no game data included."
+ },
+ {
+  "title": "Tony Hawk's Pro Skater (Tony Was A Pro Skater)",
+  "url": "https://github.com/LANCommander/TonyWasAProSkater",
+  "platform": "PS1",
+  "type": "port",
+  "source": "reddit:r/recomps",
+  "description": "PC port of Tony Hawk's Pro Skater (THPS1).",
+  "ai_flag": true
+ },
+ {
+  "title": "Need for Speed: Underground 2 (Switch port)",
+  "url": "https://github.com/antoxa2584x/nfsu2-sw",
+  "platform": "Xbox",
+  "type": "port",
+  "source": "reddit:r/recomps",
+  "description": "Port of the original Xbox Need for Speed Underground 2 to Nintendo Switch.",
+  "ai_flag": true
+ },
+ {
+  "title": "Urban Reign",
+  "url": "https://github.com/thiagordsfx/urban-reign-recomp",
+  "platform": "PS2",
+  "type": "recomp",
+  "source": "reddit:r/recomps",
+  "description": "PS2 static recompilation: native PC port with 60 FPS, high resolution, HD textures and up to 8 players."
+ },
+ {
+  "title": "God of War III Remastered (PC port)",
+  "url": "https://github.com/FelipePrado0/gow3_pc",
+  "platform": "PS4",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "description": "Windows port of God of War III Remastered: original x86-64 code on a custom runtime with shadPS4's Vulkan video core. Playable start to finish; bring your own dump."
+ },
+ {
+  "title": "Tom Clancy's Splinter Cell: Double Agent (Xbox recomp)",
+  "url": "https://github.com/TGP482/SCDA-XBERecomp",
+  "platform": "Xbox",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "description": "Unofficial PC port of the original Xbox version of Splinter Cell: Double Agent via static recompilation."
+ },
+ {
+  "title": "Final Fantasy Tactics Advance (FFTARecomp)",
+  "url": "https://github.com/Jorge262007/FFTARecomp",
+  "platform": "GBA",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "description": "Native Windows port of FFTA with widescreen, video/audio options and a one-click installer."
+ },
+ {
+  "title": "DekUI (Majora's Mask 3D)",
+  "url": "https://github.com/tgacquin/mm3d-dekui",
+  "platform": "3DS",
+  "type": "mod",
+  "source": "reddit:r/recomps",
+  "mod_group": "Emulator mods",
+  "description": "Single-screen layout and frame interpolation for Majora's Mask 3D (runs on an emulator).",
+  "host": "Majora's Mask 3D (emulated)",
+  "guest": "DekUI"
+ },
+ {
+  "title": "Diablo (diabloweb)",
+  "url": "https://github.com/d07RiV/diabloweb",
+  "play_url": "https://d07riv.github.io/diabloweb/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "manual",
+  "description": "Diablo (DevilutionX-based) compiled to WebAssembly. Plays the free shareware demo instantly; load your own DIABDAT.MPQ for the full game."
+ },
+ {
   "title": "Dreams to Reality",
   "url": "https://github.com/jlagedo/dreams-to-reality-re",
   "platform": "PC",

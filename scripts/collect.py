@@ -173,6 +173,26 @@ if os.path.exists(ap):
                      "reddit_post": a.get("reddit_post"), "reddit_user": a.get("reddit_user"), "reddit_upvotes": a.get("reddit_upvotes"), "reddit_comments": a.get("reddit_comments")})
         if r and a.get("ai_flag"): r["ai_flag"] = True
 
+# 8b. unbaked.games registry (raw/unbaked.json from scripts/fetch_unbaked.py); build.py keeps unbaked-only entries with 10+ stars
+if have("unbaked.json"):
+    _ux = set(json.load(open(os.path.join(ROOT, "data", "overrides.json"))).get("unbaked_exclude", []))
+    _known = {url_key(x) for r in records.values() for x in (r["url"], r.get("play_url"), r.get("info_url")) if x}
+    for u in json.load(open(os.path.join(RAW, "unbaked.json"))):
+        if u["slug"] in _ux: continue
+        if url_key(u["url"]) not in records and url_key(u["url"]) in _known: continue  # already linked from a browser/manual entry
+        nm = (u.get("name") or "").split("/")[-1]
+        t = u["game"] if not nm or re.sub(r"[^a-z0-9]", "", nm.lower()) in re.sub(r"[^a-z0-9]", "", u["game"].lower()) else f'{u["game"]} ({nm})'
+        r = add("unbaked", t, u["url"], u.get("platform", ""), u.get("hint", ""), u.get("description", ""), {"unbaked_url": u.get("unbaked_url")})
+        if r and u.get("ai"): r["ai_flag"] = True
+
+# 8c. portsdr.com cards (raw/portsdr.json from scripts/fetch_portsdr.py); build.py keeps portsdr-only entries with 10+ stars
+if have("portsdr.json"):
+    for c in json.load(open(os.path.join(RAW, "portsdr.json"))):
+        pj = c.get("project") or ""
+        t = c["game"] if not pj or re.sub(r"[^a-z0-9]", "", pj.lower()) in re.sub(r"[^a-z0-9]", "", c["game"].lower()) else f'{c["game"]} ({pj})'
+        r = add("portsdr", t, c["url"], c.get("platform", ""), "port", "")
+        if r and c.get("ai"): r["ai_flag"] = True
+
 # 9. source tags (data/source_tags.json): {"source-id": [urls]} -> tag records whose url/play_url matches
 tp = os.path.join(ROOT, "data", "source_tags.json")
 if os.path.exists(tp):

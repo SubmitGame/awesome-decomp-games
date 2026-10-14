@@ -29,6 +29,11 @@ def title(e):
 L = []
 L += ["<!-- GENERATED FILE: edit data/ and run scripts/refresh, not this file -->",
 "# Awesome Decomp Games [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)", "",
+'<p align="center">',
+'  <a href="https://games.omgithub.com/?tag=decomp">',
+'    <img src="assets/play-decomp-games.svg" alt="Play Decomp Games" width="800">',
+'  </a>',
+'</p>', "", 
 "> A rated, auto-refreshed list of **decompiled, recompiled and reverse-engineered games**: matching decompilations, static recompilations, source ports, engine remakes, disassemblies and browser ports.", "",
 f"**{doc['total']} projects** covering **{doc['unique_games']} games** · updated {date(doc['generated_at'])} · browse and filter on the **[website]({SITE})** · data in [`data/games.json`](data/games.json)", "",
 "> [!IMPORTANT]",

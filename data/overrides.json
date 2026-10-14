@@ -73,7 +73,16 @@
   "https://wasmarcade.com",
   "https://wz2100.net/news/warzone-2100-web-edition",
   "https://github.com/SubmitGame/awesome-decomp-games",
-  "https://foxhollow.dev"
+  "https://foxhollow.dev",
+  "https://github.com/LightVelox/sotc-vibe-pc",
+  "https://github.com/andrewnakas/skate3-ios-setup",
+  "https://github.com/andrewnakas/skate3-android",
+  "https://github.com/bwapi/bwapi",
+  "https://github.com/libsm64/libsm64-blender",
+  "https://github.com/deadinside28/bloodborne_pc",
+  "https://github.com/Mrsuss60/bloodborne_pc_windows_port",
+  "https://github.com/ares-emulator/ares",
+  "https://github.com/2006-Scape/2006Scape"
  ],
  "set": {
   "https://github.com/Warzone2100/warzone2100": {
@@ -326,5 +335,10 @@
   "supermetroid-snesrevsupermetroidlauncher",
   "thelegendofzeldaalinktothepast-snesrevzelda3launcher",
   "thelegendofzeldaalinktothepast-z3rlauncher"
+ ],
+ "unbaked_exclude": [
+  "bloodborne",
+  "p-t",
+  "fifa-street-2012"
  ]
 }
