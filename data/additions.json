@@ -687,5 +687,15 @@
   "type": "browser",
   "source": "manual",
   "description": "Diablo (DevilutionX-based) compiled to WebAssembly. Plays the free shareware demo instantly; load your own DIABDAT.MPQ for the full game."
+ },
+ {
+  "title": "Burnout 3: Takedown (Takedawn)",
+  "url": "https://github.com/xenophobentx/takedawn",
+  "platform": "Xbox",
+  "type": "recomp",
+  "source": "manual",
+  "needs_assets": "byo",
+  "description": "Original Xbox executable recompiled to native code for Mac, Windows, Linux and Steam Deck; up to 4x resolution, widescreen HUD fix, ultrawide, 5.1. Bring your own NTSC-U disc. AI-assisted.",
+  "ai_flag": true
  }
 ]
