@@ -687,5 +687,15 @@
   "type": "browser",
   "source": "manual",
   "description": "Diablo (DevilutionX-based) compiled to WebAssembly. Plays the free shareware demo instantly; load your own DIABDAT.MPQ for the full game."
+ },
+ {
+  "title": "Superfighters (HTML5 port)",
+  "url": "https://superfighters.px.com.ar/",
+  "play_url": "https://superfighters.px.com.ar/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "manual",
+  "needs_assets": "instant",
+  "description": "Unofficial native HTML5/JavaScript reimplementation of the classic Flash freeware. Includes versus, stages, survival, local and online multiplayer, and controller support. Original creator credits preserved; source repository is private."
  }
 ]
