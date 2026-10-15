@@ -784,5 +784,12 @@
   "host": "Meta Quest 3 (VR)",
   "guest": "WWF No Mercy N64 recomp",
   "description": "Standalone port of the WWF No Mercy N64 recomp that runs natively on Meta Quest 3 in VR; loads assets from your own 1.0 NA copy."
+ },
+ {
+  "title": "Dragon Ball Z: Super Saiya Densetsu",
+  "url": "https://github.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust",
+  "platform": "SNES",
+  "type": "recomp",
+  "description": "Rust rewrite with a static 65816-to-Rust recompiler, verified frame by frame against the original; Classic and an HD Remastered mode (16:9, HD art and text, new menus). Bring your own ROM."
  }
 ]
