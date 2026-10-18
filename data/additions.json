@@ -859,5 +859,13 @@
   "platform": "Amiga",
   "type": "browser",
   "description": "C/SDL2 port of the original Amiga Alien Breed 3D, playable in browsers via WebAssembly with all 16 levels, mouse look, and gamepad support. Uses source code and game assets published for non-commercial use."
+ },
+ {
+  "title": "Stunt Car Racer (Multi Stunt Car)",
+  "url": "https://github.com/retro-foundry/multistuntcar",
+  "play_url": "https://retro-foundry.github.io/multistuntcar/",
+  "platform": "Amiga",
+  "type": "browser",
+  "description": "Browser fork of StuntCarRemake with two-player split-screen, widescreen, uncapped frame rates, and WebRTC multiplayer."
  }
 ]
