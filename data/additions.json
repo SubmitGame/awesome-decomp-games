@@ -858,6 +858,6 @@
   "play_url": "https://retro-foundry.github.io/abhd/",
   "platform": "Amiga",
   "type": "browser",
-  "description": "C/SDL2 port of the original Amiga Alien Breed 3D, playable in browsers via WebAssembly with all 16 levels, mouse look, and gamepad support. Uses game data released alongside the original source code."
+  "description": "C/SDL2 port of the original Amiga Alien Breed 3D, playable in browsers via WebAssembly with all 16 levels, mouse look, and gamepad support. Uses source code and game assets published for non-commercial use."
  }
 ]

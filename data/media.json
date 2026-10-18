@@ -1088,5 +1088,15 @@
    720
   ],
   "screenshot_score": 3
+ },
+ "https://github.com/retro-foundry/Alien-Breed-HD": {
+  "screenshot": "screenshots/retro-foundry-alien-breed-hd.jpg",
+  "screenshot_source": "Gameplay screenshot supplied by the project author.",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_kind": "gameplay",
+  "locked": true
  }
 }
