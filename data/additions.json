@@ -878,6 +878,13 @@
   "url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PS1",
   "platform": "PS1",
   "type": "decomp",
-  "description": "Early matching decompilation project for the USA release, with documented asset formats and deterministic validation tools."
+  "description": "Matching decompilation of the USA release with complete exact executable reconstruction; semantic matching-C recovery remains active."
+ },
+ {
+  "title": "BattleTanx (Game Boy Color)",
+  "url": "https://github.com/TheGh0stShip/BattleTanx-GBC",
+  "platform": "Game Boy Color",
+  "type": "decomp",
+  "description": "Complete byte-exact RGBDS disassembly and SM83 source reconstruction of the USA release; semantic recovery remains active."
  }
 ]
