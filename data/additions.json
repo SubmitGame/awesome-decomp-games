@@ -872,5 +872,12 @@
   "platform": "N64",
   "type": "recomp",
   "description": "Native Windows and Linux port using N64Recomp, RT64, N64ModernRuntime and SDL2."
+ },
+ {
+  "title": "BattleTanx: Global Assault (PlayStation)",
+  "url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PS1",
+  "platform": "PS1",
+  "type": "decomp",
+  "description": "Early matching decompilation project for the USA release, with documented asset formats and deterministic validation tools."
  }
 ]
