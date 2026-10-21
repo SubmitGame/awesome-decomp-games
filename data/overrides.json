@@ -306,6 +306,9 @@
   },
   "https://www.netquake.io": {
    "needs_assets": "demo"
+  },
+  "https://github.com/Denkishi/ssbu-recomp": {
+   "description": "Static recompilation of Super Smash Bros. Ultimate (13.0.4 and 13.0.5) to a native Windows program: Vulkan renderer, fighters' code as C++ source, one-click installer that builds from your own dump; online in progress"
   }
  },
  "browser_verified": {
