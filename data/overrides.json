@@ -79,6 +79,12 @@
   "https://github.com/ares-emulator/ares"
  ],
  "set": {
+  "https://github.com/DabDavis/perfect-dark-dabs-mod": {
+   "type": "browser",
+   "play_url": "https://retro-foundry.github.io/pd/",
+   "needs_assets": "byo",
+   "description": "Browser build of Perfect Dark (Dab's Mod), based on the decompilation and PC port. Requires your own Perfect Dark (USA) (Rev 1) .z64 ROM, loaded locally in the browser; no ROM is supplied."
+  },
   "https://github.com/Warzone2100/warzone2100": {
    "type": "source-port"
   },
