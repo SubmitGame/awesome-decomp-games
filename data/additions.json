@@ -857,6 +857,6 @@
   "url": "https://github.com/matthewkris/wbmw-decomp",
   "platform": "Genesis",
   "type": "port",
-  "description": "Native SDL2 port with the 68000 game logic rewritten in C and checked against the original."
+  "description": "Native SDL2 Genesis port with 68000 logic rewritten in C and verified against the original; adds customizable controls, quick saves, enemy health displays, talk zoom and optional widescreen. Bring your own ROM."
  }
 ]
