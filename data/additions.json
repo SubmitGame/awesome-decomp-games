@@ -851,5 +851,15 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+  "title": "Undertale (undertale-web)",
+  "url": "https://github.com/S1MS4/undertale-web",
+  "play_url": "https://roomly.fun",
+  "platform": "PC",
+  "type": "browser",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "From-scratch GameMaker runner in TypeScript (bytecode interpreter, WebGL2 renderer, Web Audio) that plays Undertale in the browser from your own data.win and music, read locally and never uploaded. Browser saves with signed export/import. No game files in the repo or on the site."
  }
 ]
