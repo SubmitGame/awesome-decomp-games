@@ -858,6 +858,7 @@
   "platform": "Switch",
   "type": "recomp",
   "needs_assets": "byo",
+  "ai_flag": true,
   "description": "Static (no-JIT) recompilation of your own dump to native PC code, with FSR 3.1 upscaling and frame generation, experimental DLSS, 720p to 4K output and HDR10. Bring your own game files."
  }
 ]
