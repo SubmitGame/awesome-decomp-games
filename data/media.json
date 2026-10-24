@@ -1088,5 +1088,16 @@
    720
   ],
   "screenshot_score": 3
+ },
+ "https://nowbro.lol": {
+  "screenshot": "screenshots/browser-now-bro.jpg",
+  "screenshot_source": "https://nowbro.lol/og.jpg",
+  "screenshot_size": [
+   1280,
+   672
+  ],
+  "screenshot_score": 1,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  }
 }
