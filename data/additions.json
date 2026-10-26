@@ -851,5 +851,12 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+  "title": "Ace Attorney 123 Trilogy (nxnative-aa-port)",
+  "url": "https://github.com/armyja/nxnative-aa-port",
+  "platform": "Switch",
+  "type": "recomp",
+  "description": "Static recompilation host for Ace Attorney 123 Trilogy on Apple Silicon macOS, with a save/load crash fix and XCI support. Bring your own game files and prod.keys."
  }
 ]
