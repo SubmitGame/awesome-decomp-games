@@ -851,5 +851,32 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+  "title": "Need for Speed: High Stakes / Road Challenge (need-for-speed-4-macos-arm64)",
+  "url": "https://github.com/007hacky007/need-for-speed-4-macos-arm64",
+  "platform": "PC",
+  "type": "recomp",
+  "source": "manual",
+  "needs_assets": "byo",
+  "description": "Native Apple Silicon macOS app built from your own European Road Challenge PC copy: the VEG-patched x86 executable and EA sound module are statically translated to C and compiled to ARM64 with Clang, with Vulkan (via MoltenVK) and native Metal renderers, CoreAudio sound and a Cocoa launcher. Optional community cars and tracks. Input is checksum-verified; no game code or assets in the repo."
+ },
+ {
+  "title": "Need for Speed: Porsche Unleashed (nfs-porsche-macos-arm64)",
+  "url": "https://github.com/007hacky007/nfs-porsche-macos-arm64",
+  "platform": "PC",
+  "type": "recomp",
+  "source": "manual",
+  "needs_assets": "byo",
+  "description": "Native Apple Silicon macOS port by static recompilation: the Combined Patch v3.5-based x86 executable is translated to C and compiled to ARM64, with the Thrash graphics interface reimplemented on Metal (HD to 4K race resolutions) and CoreAudio sound. Built locally from your own USA v3.2/v3.4 PC copy with a GUI builder app or build.sh; no game code or assets in the repo."
+ },
+ {
+  "title": "Need for Speed: Most Wanted (nfs-most-wanted-macos-arm64)",
+  "url": "https://github.com/007hacky007/nfs-most-wanted-macos-arm64",
+  "platform": "PC",
+  "type": "recomp",
+  "source": "manual",
+  "needs_assets": "byo",
+  "description": "Most Wanted (2005) PC v1.3 statically recompiled to an ARM64 macOS app, with Direct3D 9 translated to Metal, plus optional Most Wanted HQ visuals or full-mod modes whose ASI modules are also compiled ahead of time. Bring your own USA English Black Edition four-CD copy; every file is size- and SHA-256-checked. Experimental."
  }
 ]
