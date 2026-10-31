@@ -851,5 +851,14 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+  "title": "Manhunt (Reelhunt)",
+  "url": "https://github.com/IhorRomanovych/reelhunt",
+  "platform": "PC",
+  "type": "remake",
+  "source": "manual",
+  "needs_assets": "byo",
+  "description": "Open-source C++23/Vulkan engine reimplementation for Windows and Linux; needs your own copy of the PC game (disc or Steam)."
  }
 ]
