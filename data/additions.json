@@ -851,5 +851,13 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+  "title": "Decomp Buddy",
+  "url": "https://github.com/TanookiStudios/decomp-buddy",
+  "info_url": "https://decompbuddy.com",
+  "platform": "PC",
+  "type": "tool",
+  "description": "GPL-licensed installer (Windows/macOS/Linux/Steam Deck, plus Android and Quest over USB) for 1,300+ decomps, recomps and PC ports: checks your own game file, malware-scans release downloads, backs up saves and keeps games updated. Install plans are written with AI help."
  }
 ]
