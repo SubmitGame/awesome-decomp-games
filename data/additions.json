@@ -851,5 +851,21 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+  "title": "Soulcalibur II HD Online",
+  "url": "https://github.com/n0madic/Soulcalibur2HD-recomp",
+  "platform": "PS3",
+  "type": "recomp",
+  "needs_assets": "byo",
+  "description": "Native build of the PS3 game by static recompilation: the PPU and Cell SPU code is translated to C/C++ and compiled on your machine on top of the ps3recomp runtime, with Metal (macOS) and Vulkan (Windows, Linux) graphics. Works on Apple Silicon Macs and Windows. Bring your own NPUB31366 game package and license."
+ },
+ {
+  "title": "Tekken 3 Remake",
+  "url": "https://github.com/n0madic/Tekken3Remake",
+  "platform": "PS1",
+  "type": "remake",
+  "needs_assets": "byo",
+  "description": "Godot 4 remake of the full PlayStation game (Arcade, VS, Team Battle, Survival, Tekken Ball, Tekken Force, all characters and unlocks) with fights checked frame by frame against the original running in an emulated CPU, plus modern graphics and texture packs. Runs on desktop, web, Android and iOS. A converter builds the game data from your own disc image."
  }
 ]
