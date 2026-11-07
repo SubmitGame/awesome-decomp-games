@@ -851,5 +851,14 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+  "title": "Snap-on Gearhead Garage (gearhead-garage-macos-arm64)",
+  "url": "https://github.com/007hacky007/gearhead-garage-macos-arm64",
+  "platform": "PC",
+  "type": "recomp",
+  "source": "manual",
+  "needs_assets": "byo",
+  "description": "Static recompilation of the 1999 Windows car mechanic game into a native Apple Silicon macOS app, with Direct3D 5 drawn by Metal and DirectSound on CoreAudio. A Builder app makes it from your own CD image or installed copy."
  }
 ]
