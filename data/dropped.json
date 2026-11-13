@@ -198,6 +198,18 @@
   "reason": "unbaked-only, <10 stars, fork or not on GitHub"
  },
  {
+  "title": "Apocalypse",
+  "url": "https://github.com/alexbeavs-ps1-ports/apocalypse-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Arc Rise Fantasia",
+  "url": "https://github.com/vs-sr-dev/pc-arcrisefantasia",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Area 51 (Project Dreamland)",
   "url": "https://github.com/Source2Spy/area51-pc",
   "status": 200,
@@ -216,10 +228,22 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Armored Core",
+  "url": "https://github.com/alexbeavs-ps1-ports/armored-core-project-phantasma-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Armored Core (AC1Recomp)",
   "url": "https://github.com/NeonLightning/AC1Recomp",
   "status": 200,
   "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Armored Core: Master of Arena",
+  "url": "https://github.com/alexbeavs-ps1-ports/armored-core-master-of-arena-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Army Men: Sarge's Heroes (Army Men: Sarge's Heroes 64 Recompiled)",
@@ -268,6 +292,12 @@
   "url": "https://github.com/TekRantGaming/avp-evolution-pc-edition",
   "status": 200,
   "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Azure Dreams",
+  "url": "https://github.com/alexbeavs-ps1-ports/azure-dreams-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Azure Dreams",
@@ -366,12 +396,6 @@
   "reason": "quiver-only, <100 stars"
  },
  {
-  "title": "BattleHunter",
-  "url": "https://github.com/salman95/BattleHunterRecomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "BattleTanx (BTRecomp)",
   "url": "https://github.com/wootbeer/btrecomp",
   "status": 200,
@@ -392,6 +416,18 @@
  {
   "title": "Beavis and Butt-Head (Beavis and Butt-Head (SNES Recomp))",
   "url": "https://github.com/rac08241988/BeavisAndButtHead-Recomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Beetle Adventure Racing! (BeetleRecomp)",
+  "url": "https://github.com/bryankruman/BeetleRecomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Ben 10 Ultimate Alien: Cosmic Destruction (Cosmic Recomp)",
+  "url": "https://github.com/nour9264/Cosmic-Recomp-work",
   "status": 200,
   "reason": "quiver-only, <100 stars"
  },
@@ -420,6 +456,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Blinx: The Time Sweeper (BlinxRecomp)",
+  "url": "https://github.com/mstan/BlinxRecomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
   "title": "blips",
   "url": "https://github.com/joyrider3774/blips",
   "status": 200,
@@ -438,6 +480,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Body Harvest",
+  "url": "https://github.com/LunarLaurus/adams-ant-farm-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Body Harvest (Body Harvest: Recompiled)",
   "url": "https://github.com/danielgomesvieira2000/body-harvest-recomp",
   "status": 200,
@@ -448,6 +496,12 @@
   "url": "https://github.com/Doridian/Bomberman64",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Bomberman Online (Bomberman Online Recompiled)",
+  "url": "https://github.com/nvd123-YT/BombermanOnlineRecomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Breath of Fire III",
@@ -522,6 +576,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Casio World Open",
+  "url": "https://github.com/antxiko/CasioWorldOpen-disassembly",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Castlevania (fan-game) (Castlevania ReVamped)",
   "url": "https://github.com/eboody/Castlevania-ReVamped-Open-Source-Edition",
   "status": 200,
@@ -532,6 +592,18 @@
   "url": "https://github.com/DankZoneStudios/CV64Recomp",
   "status": 200,
   "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Castlevania Judgment",
+  "url": "https://github.com/vs-sr-dev/pc-castlevaniajudgment",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Castlevania: Curse of Darkness",
+  "url": "https://github.com/otavix010/castlevania-curse-of-darkness-pc",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Castlevania: Curse of Darkness (Castlevania: Curse of Darkness - XBE Recomp)",
@@ -556,6 +628,12 @@
   "url": "https://github.com/sergiomanzur/cvlod_recomp",
   "status": 200,
   "reason": "unbaked-only, <10 stars, fork or not on GitHub"
+ },
+ {
+  "title": "Castlevania: Rondo of Blood (RondoRecomp)",
+  "url": "https://github.com/gminustwo/RondoRecomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Castlevania: Symphony of the Night (SymphonyRecomp (sergiomanzur))",
@@ -648,6 +726,18 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Colony Wars",
+  "url": "https://github.com/alexbeavs-ps1-ports/colony-wars-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Colony Wars: Red Sun",
+  "url": "https://github.com/alexbeavs-ps1-ports/colony-wars-red-sun-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Command & Conquer: Generals Zero Hour (GeneralsX)",
   "url": "https://github.com/fbraz3/GeneralsX",
   "status": 200,
@@ -658,6 +748,12 @@
   "url": "https://github.com/mischa85/RedAlert2",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Command & Conquer: Red Alert 2 (Red Alert 2 - Valiant Shades mod for OpenRA)",
+  "url": "https://github.com/AttacqueSuperior/ValiantShades",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Command & Conquer: Red Alert 2 (Red Alert 2 mod for OpenRA)",
@@ -690,6 +786,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Conduit 2",
+  "url": "https://github.com/vs-sr-dev/pc-conduit2",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Conker: Live & Reloaded (xboxrecomp-conker)",
   "url": "https://github.com/Txukie/xboxrecomp-conker",
   "status": 200,
@@ -698,6 +800,12 @@
  {
   "title": "Cosmic Soldier (CSBWin)",
   "url": "https://github.com/BeipDev/CSBWin",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Cow's Revenge",
+  "url": "https://github.com/Dariasteam/Cows-Revenge",
   "status": 200,
   "reason": "quiver-only, <100 stars"
  },
@@ -714,12 +822,6 @@
   "reason": "quiver-only, <100 stars"
  },
  {
-  "title": "Crash Bandicoot: The Wrath of Cortex",
-  "url": "https://github.com/denzi-gh/crashwoc-nuworld",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Crash Course 2 (Crash Course 2: Recompiled)",
   "url": "https://github.com/panedivitasei/CrashCourse2Recomp",
   "status": 200,
@@ -730,12 +832,6 @@
   "url": "https://github.com/jaylikesbunda/CrashoftheTitans-Wiicomp",
   "status": 200,
   "reason": "quiver-only, <100 stars"
- },
- {
-  "title": "Crash Team Racing",
-  "url": "https://github.com/SomeoneIsWorking/psx-crash-team-racing",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Crash Team Racing (Crash Team Racing: Turbocharged)",
@@ -760,12 +856,6 @@
   "url": "https://github.com/caixax/ReCoF",
   "status": 200,
   "reason": "quiver-only, <100 stars"
- },
- {
-  "title": "Cube World",
-  "url": "https://github.com/voximity/cw-decomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Cyber Troopers Virtual-On Oratorio Tangram (Oratan-recomp)",
@@ -846,6 +936,18 @@
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
+  "title": "Dave Gnukem",
+  "url": "https://github.com/davidjoffe/dave_gnukem",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Daytona USA (Daytona USA ReXGlue Recompilation)",
+  "url": "https://github.com/springah/daytona_recomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
   "title": "Daytona USA (Daytona USA Static Recomp)",
   "url": "https://github.com/baliebox4916/daytona-arcade-recomp",
   "status": 200,
@@ -894,12 +996,6 @@
   "reason": "quiver-only, <100 stars"
  },
  {
-  "title": "Deception IV: The Nightmare Princess (Deception IV: The Nightmare Princess - Recompiled)",
-  "url": "https://github.com/rcostanza/Deception-IV-NightmarePrincess-recomp",
-  "status": 200,
-  "reason": "quiver-only, <100 stars"
- },
- {
   "title": "Demon's Crest (Demon's Crest (SNES Recomp))",
   "url": "https://github.com/rac08241988/DemonsCrestSNESRecomp",
   "status": 200,
@@ -942,6 +1038,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Destruction Derby Raw",
+  "url": "https://github.com/alexbeavs-ps1-ports/destruction-derby-raw-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "DetectiveDS",
   "url": "https://github.com/benbaker76/DetectiveDS",
   "status": 200,
@@ -960,6 +1062,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Devil Dice",
+  "url": "https://github.com/alexbeavs-ps1-ports/devil-dice-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Dig Dug (Dig Dug Native Port)",
   "url": "https://github.com/TekRantGaming/digdug-native",
   "status": 200,
@@ -972,8 +1080,8 @@
   "reason": "dead link"
  },
  {
-  "title": "Digimon Rumble Arena 2",
-  "url": "https://github.com/pedrohenrique505/digimon-rumble-arena-2-recomp",
+  "title": "Digimon Rumble Arena",
+  "url": "https://github.com/ReGame-Labs/dtbe_decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -982,6 +1090,12 @@
   "url": "https://github.com/gabrielmedeiros1337/digimonra2-recomp",
   "status": 200,
   "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Digimon World 2",
+  "url": "https://github.com/alexbeavs-ps1-ports/digimon-world-2-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Digimon World 3",
@@ -1002,14 +1116,14 @@
   "reason": "dead link"
  },
  {
-  "title": "Digimon World 4",
-  "url": "https://github.com/crashbashash/DW4_Decomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Dinosaur Planet (dino-recomp-3D)",
   "url": "https://github.com/oneup03/dino-recomp-3D",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Dinosaur Planet (Dinosaur Planet: AI Slop Recomp)",
+  "url": "https://github.com/n64hub/dinosaur-planet-recomp",
   "status": 200,
   "reason": "quiver-only, <100 stars"
  },
@@ -1032,10 +1146,10 @@
   "reason": "quiver-only, <100 stars"
  },
  {
-  "title": "Doko Demo Issyo",
-  "url": "https://github.com/Senya01/dokodemo-native",
+  "title": "Donald Duck: Goin' Quackers (Donald Duck: Goin' Quackers Recompiled)",
+  "url": "https://github.com/n64hub/donald-duck-goin-quackers-recomp",
   "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Donkey Kong (DK94 Recomp)",
@@ -1116,22 +1230,10 @@
   "reason": "unbaked-only, <10 stars, fork or not on GitHub"
  },
  {
-  "title": "Draconus: Cult of the Wyrm",
-  "url": "https://github.com/GnomeChimpsky/Draconus-Recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Dragon Warrior IV (DragonWarrior4NESRecomp)",
   "url": "https://github.com/arichmondphoto/DragonWarrior4NESRecomp",
   "status": 200,
   "reason": "quiver-only, <100 stars"
- },
- {
-  "title": "Dragon Warrior Monsters",
-  "url": "https://github.com/banner88/dwm1_disassembly",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Drakan: The Ancients' Gates (Drakan2PC)",
@@ -1144,12 +1246,6 @@
   "url": "https://github.com/qnfn/Driveclub-Port",
   "status": 200,
   "reason": "quiver-only, <100 stars"
- },
- {
-  "title": "Duke Nukem: Time to Kill",
-  "url": "https://github.com/MusicMonsterMod/duke-nukem-time-to-kill-recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "DukeGDX",
@@ -1310,6 +1406,12 @@
  {
   "title": "Final Fantasy Crystal Chronicles: Echoes of Time (FFCCEOT Recomp)",
   "url": "https://github.com/JonathanDC64/FFCCEOT-Recomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Fire Emblem: Fortune's Weave (EmblemWeave)",
+  "url": "https://github.com/XiONDiGiTaL/EmblemWeave",
   "status": 200,
   "reason": "quiver-only, <100 stars"
  },
@@ -1556,6 +1658,12 @@
  {
   "title": "God of War Collection (God of War Collection (VitaRT))",
   "url": "https://github.com/luisxl15/GOD-OF-WAR-HD-COLLECTION",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "God of War: Ascension (Ascension-R)",
+  "url": "https://github.com/rigaz29/Ascension-R",
   "status": 200,
   "reason": "quiver-only, <100 stars"
  },
@@ -2148,6 +2256,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Links 2004 (Links 2004 - XBE Recomp)",
+  "url": "https://github.com/cgpartlow/Links2004-XBERecomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
   "title": "LittleBigPlanet 3 (LBPPC)",
   "url": "https://github.com/emurphy04/LBPPC",
   "status": 200,
@@ -2268,6 +2382,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Mario Tennis Fever (Mario Tennis Fever Recomp)",
+  "url": "https://github.com/kayochiaradia/mtf-recomp",
+  "status": 404,
+  "reason": "dead link"
+ },
+ {
   "title": "Mars - The Ultimate Fighter (Mars3D)",
   "url": "https://github.com/jval1972/Mars3D",
   "status": 200,
@@ -2386,12 +2506,6 @@
   "url": "https://github.com/primedecomp/echoes",
   "status": 404,
   "reason": "dead link"
- },
- {
-  "title": "Metroid Prime 4: Beyond (salsburysteaks)",
-  "url": "https://github.com/PlagueDrRiess/salsburysteaks",
-  "status": 200,
-  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Metroid Prime Hunters (Second Hunt)",
@@ -2734,6 +2848,12 @@
   "url": "https://github.com/themuffinator/openQ4-game",
   "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
+ },
+ {
+  "title": "OpenRA Soviet Mod",
+  "url": "https://github.com/MlemandPurrs/ora-sovra",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "OpenRecomp-FGC",
@@ -3630,6 +3750,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Sonic Riders: Zero Gravity (SR-ZGS)",
+  "url": "https://github.com/KnivesDevilish/SR-Source",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
   "title": "Sonic Robo Blast 2 (Sonic Robo Blast 2 (Android))",
   "url": "https://github.com/bitten2up/SRB2-Android",
   "status": 200,
@@ -3820,6 +3946,12 @@
   "url": "https://github.com/irnutsmurt/Street-Alpha-3-Dreamcast-Recomp",
   "status": 200,
   "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Street Fighter Alpha 3 MAX (sfa3max-decomp)",
+  "url": "https://github.com/theweathervane/sfa3max-decomp",
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Street Fighter II Turbo (Street Fighter II Turbo Recomp)",
@@ -4086,6 +4218,12 @@
   "reason": "unbaked-only, <10 stars, fork or not on GitHub"
  },
  {
+  "title": "Super Smash Bros. (Super Smash Bros.: Recompiled)",
+  "url": "https://github.com/n64hub/super-smash-bros-recomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
   "title": "Super Smash Bros. Ultimate (SSBU Arena)",
   "url": "https://github.com/SSBUArena/ssbu-arena",
   "status": 200,
@@ -4218,6 +4356,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "The King of Fighters 2000 (The King of Fighters 2000 (Neo Geo) - static recompilation)",
+  "url": "https://github.com/omegakatana92/The-King-of-Fighters-2000-Recomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
   "title": "The Legend of Spyro: A New Beginning (The Legend of Spyro: A New Beginning Recomp)",
   "url": "https://github.com/Starkka15/spyro-anb-pc",
   "status": 200,
@@ -4270,6 +4414,12 @@
   "url": "https://github.com/Apolinario-coder/SkyRecomp",
   "status": 404,
   "reason": "dead link"
+ },
+ {
+  "title": "The Legend of Zelda: Tears of the Kingdom (TotK Recomp)",
+  "url": "https://github.com/ZuanCrisp/Zelda-TOTK-Port",
+  "status": 200,
+  "reason": "unbaked-only, <10 stars, fork or not on GitHub"
  },
  {
   "title": "The Legend of Zelda: The Minish Cap (tmc)",
@@ -4496,6 +4646,24 @@
  {
   "title": "Tsukihime -A piece of blue glass moon- (Tsukihime Native PC Port)",
   "url": "https://github.com/Take00C/Tsukihime-Native-PC-Port",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Turok 2: Seeds of Evil (Turok 2: Recompiled)",
+  "url": "https://github.com/n64hub/turok-2-recomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Turok 3: Shadow of Oblivion (Turok 3: Recompiled)",
+  "url": "https://github.com/n64hub/turok-3-recomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Turok: Dinosaur Hunter (Turok: Recompiled)",
+  "url": "https://github.com/n64hub/turok-recomp",
   "status": 200,
   "reason": "quiver-only, <100 stars"
  },
@@ -4778,6 +4946,12 @@
  {
   "title": "You Must Construct Additional",
   "url": "https://github.com/patrickwieth/YMCA",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Ys Book I & II (YsRecomp)",
+  "url": "https://github.com/Fabiano-Gelain/YsRecomp",
   "status": 200,
   "reason": "quiver-only, <100 stars"
  },
