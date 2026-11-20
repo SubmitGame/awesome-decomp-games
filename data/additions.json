@@ -851,5 +851,14 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+      "title": "Road Rash",
+      "url": "https://github.com/speedydevil007/road-sdl2-rash",
+      "play_url": "https://speedydevil007.github.io/road-sdl2-rash/",
+      "platform": "PC",
+      "type": "port",
+      "needs_assets": "byo",
+      "description": "Native 64-bit C port and WebAssembly browser edition of the 1996 PC release via SDL2 with 60 FPS pacing, CRT filters, and in-game QoL overlay."
  }
 ]
