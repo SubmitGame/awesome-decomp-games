@@ -851,5 +851,13 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+  "title": "Diablo II: Lord of Destruction (Redivivus)",
+  "url": "https://github.com/jaenster/redivivus",
+  "platform": "PC",
+  "type": "decomp",
+  "needs_assets": "byo",
+  "description": "The retail 1.14d Game.exe (classic and LoD are both in that one binary) recovered as C++ that compiles with strict -std=c++17, links with no undefined symbols and plays single player: create a character, enter the game, walk, fight, change areas. Organised by the game's own module names (D2Client, D2Common, D2Game, D2Win, Storm, Fog). Generated from reverse-engineered Ghidra databases rather than hand-edited, then checked by recompiling with the original Visual C++ 2005 SP1 and byte-comparing each function against 1.14d: 5,689 of 14,812 functions (38.4%) currently come out identical. Needs your own Diablo II: Lord of Destruction 1.14 install; the repo ships no game data. Single-player only; it still crashes now and then."
  }
 ]
