@@ -860,5 +860,14 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Engine reimplementation of the 2001 KnowWonder PC game that runs the game's own UnrealScript bytecode and data from your copy, checked against the original; native on macOS, Windows, Linux and Steam Deck, with a launcher, widescreen, gamepad and mods on/off. AI-assisted."
+ },
+ {
+  "title": "Harry Potter and the Chamber of Secrets (HPEngine)",
+  "url": "https://github.com/artemnikonov/hpengine",
+  "platform": "PC",
+  "type": "remake",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Engine reimplementation of the 2002 KnowWonder PC game on the same engine as HPEngine's Philosopher's Stone: runs the game's own UnrealScript and data from your copy; native on macOS, Windows and Linux. Beta, AI-assisted."
  }
 ]
