@@ -851,5 +851,18 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+  "title": "The Legend of Zelda: Ocarina of Time (Bowshot)",
+  "url": "https://github.com/xBritik/Bowshot",
+  "platform": "switch2",
+  "type": "static-recomp",
+  "source": "reddit:r/macgaming",
+  "reddit_post": "https://www.reddit.com/r/macgaming/s/jq9uH6akrZ",
+  "reddit_user": "u/xBritik",
+  "reddit_upvotes": 8,
+  "reddit_comments": 2,
+  "ai_flag": true,
+  "description": "Bowshot is a Mac app that builds the game on your Mac, from your own game file and add enhancements for performance. It is based on nxnative and the Ocarina of Time work from kid-with-sword-remake. No game files are included. You can only play the copy you build yourself."
  }
 ]
