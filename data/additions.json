@@ -851,5 +851,27 @@
   "needs_assets": "byo",
   "ai_flag": true,
   "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
+ },
+ {
+  "title": "Ultima VIII: Pagan (U8 Ether Gate)",
+  "url": "https://github.com/LostMystic/u8-ether-gate",
+  "platform": "DOS",
+  "type": "remake",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Clean-room engine for Ultima VIII: Pagan in C++/SDL2, GPLv3, for Linux and a self-hosted web (WASM) build. Adds optional companions, turn-based combat, the Eight Virtues and original bug fixes, each with an off switch. Needs your own copy of Ultima VIII.",
+  "info_url": "https://evergamer.com/game/u8-ether-gate-e4vl",
+  "source": "manual"
+ },
+ {
+  "title": "Dragons of Flame (Dragons of Flame: Rekindled)",
+  "url": "https://github.com/LostMystic/dragons-of-flame-html5",
+  "platform": "DOS",
+  "type": "browser",
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "New C++/WebAssembly engine that plays SSI's 1989 Dragonlance game Dragons of Flame in the browser. A Python installer rebuilds the game from your own DOS copy and serves it locally. Adds smooth and gamepad controls, new music, cave lairs and rules from the DL2 module; the original keypad controls remain.",
+  "info_url": "https://evergamer.com/game/dragons-of-flame-html5-dcfn",
+  "source": "manual"
  }
 ]
