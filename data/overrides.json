@@ -79,6 +79,11 @@
   "https://github.com/ares-emulator/ares"
  ],
  "set": {
+  "https://github.com/OpenCommunityEdition/OpenCE": {
+   "play_url": "https://halocombatevolved.com/",
+   "needs_assets": "byo",
+   "description": "Halo: Combat Evolved ported to Windows, Linux, Android and WebAssembly; requires your own Xbox game data."
+  },
   "https://github.com/Warzone2100/warzone2100": {
    "type": "source-port"
   },
